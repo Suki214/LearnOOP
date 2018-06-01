@@ -14,6 +14,7 @@ namespace ObserverPattern
         {
             BackgroundColor = "Red";
             MessageShow = "The water is about boiled";
+            Console.WriteLine("test for git eding");
         }
     }
 }
