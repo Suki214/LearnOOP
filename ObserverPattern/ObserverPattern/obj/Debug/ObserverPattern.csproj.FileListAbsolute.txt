@@ -1,0 +1,15 @@
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.exe
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\bin\Debug\ObserverPattern.pdb
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\App.g.cs
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern_MarkupCompile.cache
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern_MarkupCompile.lref
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\MainWindow.baml
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.g.resources
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.Properties.Resources.resources
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.csproj.GenerateResource.Cache
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.exe
+C:\Users\sxu\source\repos\ObserverPattern\ObserverPattern\obj\Debug\ObserverPattern.pdb
