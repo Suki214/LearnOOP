@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\obj\Debug\SynchronizationDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\obj\Debug\SynchronizationDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\bin\Debug\SynchronizationDemo.exe.config
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\bin\Debug\SynchronizationDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\bin\Debug\SynchronizationDemo.pdb
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\obj\Debug\SynchronizationDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\SynchronizationDemo\obj\Debug\SynchronizationDemo.pdb

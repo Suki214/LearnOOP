@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\bin\Debug\MonitorDemo.exe.config
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\bin\Debug\MonitorDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\bin\Debug\MonitorDemo.pdb
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\obj\Debug\MonitorDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\obj\Debug\MonitorDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\obj\Debug\MonitorDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\MonitorDemo\obj\Debug\MonitorDemo.pdb

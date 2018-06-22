@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\bin\Debug\DeadLockDemo.exe.config
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\bin\Debug\DeadLockDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\bin\Debug\DeadLockDemo.pdb
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\obj\Debug\DeadLockDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\obj\Debug\DeadLockDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\obj\Debug\DeadLockDemo.pdb
+C:\Users\sxu\source\repos\ThreadsDemo\DeadLockDemo\obj\Debug\DeadLockDemo.csprojResolveAssemblyReference.cache

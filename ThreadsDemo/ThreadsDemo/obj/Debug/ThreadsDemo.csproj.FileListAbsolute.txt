@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\bin\Debug\ThreadsDemo.exe.config
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\bin\Debug\ThreadsDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\bin\Debug\ThreadsDemo.pdb
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\obj\Debug\ThreadsDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\obj\Debug\ThreadsDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\obj\Debug\ThreadsDemo.exe
+C:\Users\sxu\source\repos\ThreadsDemo\ThreadsDemo\obj\Debug\ThreadsDemo.pdb
