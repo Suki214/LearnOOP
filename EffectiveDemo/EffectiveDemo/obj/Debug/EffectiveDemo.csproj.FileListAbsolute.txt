@@ -1,0 +1,7 @@
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\bin\Debug\EffectiveDemo.exe.config
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\bin\Debug\EffectiveDemo.exe
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\bin\Debug\EffectiveDemo.pdb
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\obj\Debug\EffectiveDemo.csprojResolveAssemblyReference.cache
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\obj\Debug\EffectiveDemo.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\obj\Debug\EffectiveDemo.exe
+c:\users\sxu\source\repos\EffectiveDemo\EffectiveDemo\obj\Debug\EffectiveDemo.pdb
