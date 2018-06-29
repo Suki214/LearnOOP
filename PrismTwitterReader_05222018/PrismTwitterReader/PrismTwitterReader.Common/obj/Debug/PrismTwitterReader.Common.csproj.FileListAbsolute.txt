@@ -1,0 +1,8 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\bin\Debug\PrismTwitterReader.Common.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\bin\Debug\PrismTwitterReader.Common.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\bin\Debug\Prism.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\obj\Debug\PrismTwitterReader.Common.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\obj\Debug\PrismTwitterReader.Common.csproj.CoreCompileInputs.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\obj\Debug\PrismTwitterReader.Common.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PrismTwitterReader_05222018\PrismTwitterReader\PrismTwitterReader.Common\obj\Debug\PrismTwitterReader.Common.pdb
