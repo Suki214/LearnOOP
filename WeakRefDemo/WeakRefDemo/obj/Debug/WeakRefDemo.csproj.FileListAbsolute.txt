@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\bin\Debug\WeakRefDemo.exe.config
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\bin\Debug\WeakRefDemo.exe
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\bin\Debug\WeakRefDemo.pdb
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\obj\Debug\WeakRefDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\obj\Debug\WeakRefDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\obj\Debug\WeakRefDemo.exe
+C:\Users\sxu\source\repos\WeakRefDemo\WeakRefDemo\obj\Debug\WeakRefDemo.pdb
