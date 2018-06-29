@@ -1,0 +1,10 @@
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\DemoClass.exe.config
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\DemoClass.exe
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\DemoClass.pdb
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\RecordAttributeDemo.exe
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\RecordAttributeDemo.pdb
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\bin\Debug\RecordAttributeDemo.exe.config
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\obj\Debug\DemoClass4CustomerAttributeDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\obj\Debug\DemoClass4CustomerAttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\obj\Debug\DemoClass.exe
+C:\Users\sxu\source\repos\ReflectionDemo\ReflectionDemo\DemoClass\obj\Debug\DemoClass.pdb
