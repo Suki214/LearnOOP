@@ -1,0 +1,13 @@
+c:\users\sxu\source\repos\CustomButton\CustomButton\bin\Debug\CustomButton.dll
+c:\users\sxu\source\repos\CustomButton\CustomButton\bin\Debug\CustomButton.pdb
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csprojResolveAssemblyReference.cache
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton_MarkupCompile.cache
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton_MarkupCompile.lref
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\Themes\Generic.baml
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.g.resources
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.Properties.Resources.resources
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csproj.GenerateResource.Cache
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.dll
+c:\users\sxu\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.pdb
