@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveCPart5Demo", "EffectiveCPart5Demo\EffectiveCPart5Demo.csproj", "{30D3C6F9-65A5-418F-B2F6-791E515D650D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackWithDelegate", "CallbackWithDelegate\CallbackWithDelegate.csproj", "{54863254-04E5-4B69-BE2C-B600EC2F3B90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{30D3C6F9-65A5-418F-B2F6-791E515D650D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D3C6F9-65A5-418F-B2F6-791E515D650D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D3C6F9-65A5-418F-B2F6-791E515D650D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
