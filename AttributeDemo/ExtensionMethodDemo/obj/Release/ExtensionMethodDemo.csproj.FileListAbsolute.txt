@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\obj\Release\ExtensionMethodDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\obj\Release\ExtensionMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\bin\Release\ExtensionMethodDemo.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\bin\Release\ExtensionMethodDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\bin\Release\ExtensionMethodDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\obj\Release\ExtensionMethodDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\ExtensionMethodDemo\obj\Release\ExtensionMethodDemo.pdb

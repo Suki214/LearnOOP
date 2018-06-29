@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\bin\Release\DecoratorPatternDemo.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\bin\Release\DecoratorPatternDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\bin\Release\DecoratorPatternDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\obj\Release\DecoratorPatternDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\obj\Release\DecoratorPatternDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\obj\Release\DecoratorPatternDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\DecoratorPatternDemo\obj\Release\DecoratorPatternDemo.pdb

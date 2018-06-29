@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Debug\AttributeDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Debug\AttributeDemo.pdb

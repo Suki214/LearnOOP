@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\obj\Release\LINQDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\obj\Release\LINQDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\bin\Release\LINQDemo.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\bin\Release\LINQDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\bin\Release\LINQDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\obj\Release\LINQDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\LINQDemo\obj\Release\LINQDemo.pdb

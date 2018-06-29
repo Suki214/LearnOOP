@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\AttributeDemo\Struct\bin\Release\Struct.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\Struct\bin\Release\Struct.exe
+C:\Users\sxu\source\repos\AttributeDemo\Struct\bin\Release\Struct.pdb
+C:\Users\sxu\source\repos\AttributeDemo\Struct\obj\Release\StructDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\Struct\obj\Release\StructDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\Struct\obj\Release\Struct.exe
+C:\Users\sxu\source\repos\AttributeDemo\Struct\obj\Release\Struct.pdb

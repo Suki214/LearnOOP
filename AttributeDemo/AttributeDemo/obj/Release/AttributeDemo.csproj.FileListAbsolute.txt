@@ -1,0 +1,10 @@
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\AttributeDemo.exe.config
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\AttributeDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\AttributeDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Release\AttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Release\AttributeDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Release\AttributeDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\obj\Release\AttributeDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\ExtensionMethodDemo.exe
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\ExtensionMethodDemo.pdb
+C:\Users\sxu\source\repos\AttributeDemo\AttributeDemo\bin\Release\ExtensionMethodDemo.exe.config
