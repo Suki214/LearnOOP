@@ -8,9 +8,17 @@ namespace CallbackWithDelegate
 {
     class Program
     {
+        public delegate void MyDelegate();
         static void Main(string[] args)
         {
-            Console.WriteLine("test for commite");
+            MyDelegate del = new MyDelegate( CallbackWithDelegate );
+            del();
+            Console.ReadKey();
+        }
+
+        static void CallbackWithDelegate()
+        {
+            Console.WriteLine("Calling back");
         }
     }
 }
