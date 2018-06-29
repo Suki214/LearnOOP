@@ -10,7 +10,7 @@ namespace EffectiveCPart5Demo
     {
         static void Main(string[] args)
         {
-            //add for test
+            Console.WriteLine("Test...");
         }
     }
 }
