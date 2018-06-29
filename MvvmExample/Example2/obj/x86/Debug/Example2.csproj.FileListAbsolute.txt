@@ -1,0 +1,14 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\bin\Debug\Example2.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\bin\Debug\Example2.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example2\obj\x86\Debug\Example2.pdb

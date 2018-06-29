@@ -1,0 +1,5 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\MicroMvvm\bin\Debug\MicroMvvm.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\MicroMvvm\bin\Debug\MicroMvvm.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\MicroMvvm\obj\Debug\MicroMvvm.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\MicroMvvm\obj\Debug\MicroMvvm.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\MicroMvvm\obj\Debug\MicroMvvm.pdb

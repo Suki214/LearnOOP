@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<objects xmlns="http://www.springframework.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.net  ../../../../bin/Debug/spring-1.3.xsd"
+  default-lazy-init="true">
+  <!-- Keep default-lazy-init="true", otherwise spring will pre-initialize the objects and they won't be 
+              created with in the TouchUI-WorkingBox anymore -->
+
+  <description>Object declaration for Exam TouchUI BE.</description>
+
+  <!--<import resource="../../CT/Exam/CT.Exam.TouchUIBackend.AppFrame.WorkflowStates.SpringConfig.xml"/>-->
+  <object name="discountStrategy" type="StrategyPatternDemo.DiscountStrategyForTuesday, StrategyPatternDemo"/>
+
+  <object name="casher" type="StrategyPatternDemo.Casher, StrategyPatternDemo">
+    <constructor-arg name="strategy" ref="discountStrategy"/>
+  </object>
+
+</objects>

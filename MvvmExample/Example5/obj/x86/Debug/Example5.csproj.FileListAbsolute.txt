@@ -1,0 +1,16 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\bin\Debug\Example5.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\bin\Debug\Example5.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\bin\Debug\MicroMvvm.dll
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\bin\Debug\MicroMvvm.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\MvvmExample\Example5\obj\x86\Debug\Example5.pdb
