@@ -1,0 +1,58 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Copyright © 2012 Infor. All rights reserved. The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries.
+    All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.-->
+
+    <!--converters,it is recommened all converters be created here for global usage.-->
+    
+    <!--Default FontFamily for application,which defines gloabl font style,etc.
+        All custom defined styles should inherit this base style.-->
+    <Style TargetType="Control" x:Key="base-control-ux3">
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="FontSize" Value="12"></Setter>
+        <Setter Property="Foreground" Value="#666666"></Setter>
+    </Style>
+
+
+    <!--frequently-used color brush-->
+    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
+    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#EEE" />
+    <SolidColorBrush x:Key="azure-brush-ux3" Color="#13a3f7" />
+    <SolidColorBrush x:Key="white-brush-ux3" Color="#ffffff" />
+    <SolidColorBrush x:Key="graphite-brush-ux3" Color="#686b73" />
+    <SolidColorBrush x:Key="graphite-opacity2-brush-ux3" Color="#686b73" Opacity="0.2" />
+    <SolidColorBrush x:Key="graphite-opacity4-brush-ux3" Color="#686b73" Opacity="0.4" />
+    <SolidColorBrush x:Key="graphite-opacity6-brush-ux3" Color="#686b73" Opacity="0.6" />
+
+    <SolidColorBrush x:Key="darkgray-brush-ux3" Color="#999999" />
+    <SolidColorBrush x:Key="lightgray-brush-ux3" Color="#e5e5e5" />
+
+    <SolidColorBrush x:Key="error-red-foreground-brush-ux3" Color="#D5000E" />
+    <SolidColorBrush x:Key="error-red-background-brush-ux3" Color="#FDF2F3" />
+
+    <LinearGradientBrush x:Key="GrayGradientBrush-ux3" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Offset="0" Color="#f4f4f4"/>
+                <GradientStop Offset="1" Color="#cccccc"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+
+    <!--Misc:-->
+    
+    <!--presents with a white border,for dialog layout-->
+    <Style TargetType="Border" x:Key="dialog-outerBorder-ux3">
+        <Setter Property="BorderThickness" Value="25,20,25,5"></Setter>
+        <Setter Property="BorderBrush" Value="White"></Setter>
+    </Style>
+
+    <!--presents with a white border,for dialog layout-->
+    <Style TargetType="Border" x:Key="dialog-innerBorder-ux3">
+        <Setter Property="BorderThickness" Value="10"></Setter>
+        <Setter Property="BorderBrush" Value="White"></Setter>
+    </Style>
+
+    
+</ResourceDictionary>

@@ -1,0 +1,14 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\bin\Debug\WaterMarkDemo.exe.config
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\bin\Debug\WaterMarkDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\bin\Debug\WaterMarkDemo.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\WaterMarkDemo_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\PlayButtonDemo\WaterMarkDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs

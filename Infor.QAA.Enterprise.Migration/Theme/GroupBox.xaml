@@ -1,0 +1,80 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Copyright © 2012 Infor. All rights reserved. The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries.
+    All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.-->
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Shared.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <!--There's a subtle bug in the default control template for GroupBox,if we put controls like button or checkbox in the <GroupBox.Header>,
+        Sometimes mouse clicks are swallowed and the Button/CheckBox's status doesn't change,Setting the GroupBox's BorderThickness to 0 solves the problem,
+        or editing the default template for the GroupBox and moving the Border named 'Header' to the last item in the control templates Grid element, 
+        the issue resolves itself.
+    
+        also,if header is not set,default group box will have a empty header space,this style has solved the problem.
+    
+        So below is the override control template.
+    -->
+
+    <BorderGapMaskConverter x:Key="GroupBoxBorderGapMaskConverter" />
+
+    <Style x:Key="groupBox-ux3" TargetType="{x:Type GroupBox}" BasedOn="{StaticResource base-control-ux3}">
+        <Setter Property="Control.BorderBrush" Value="#FFD5DFE5" />
+        <Setter Property="Control.BorderThickness" Value="1" />
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GroupBox}">
+                    <Grid SnapsToDevicePixels="True">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="6" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="6" />
+                        </Grid.RowDefinitions>
+                        <Border Name="Header" Padding="3,1,3,0" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+                            <ContentPresenter ContentSource="Header" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+                        </Border>
+                        <Border CornerRadius="4" Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="4" 
+                                BorderThickness="{TemplateBinding Control.BorderThickness}" BorderBrush="#00FFFFFF"
+                                Background="{TemplateBinding Control.Background}" IsHitTestVisible="False" />
+
+                        <ContentPresenter Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="{TemplateBinding Control.Padding}" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}"/>
+
+                        <Border Grid.Row="1" Grid.RowSpan="3" Grid.ColumnSpan="4" CornerRadius="4" 
+                                BorderThickness="{TemplateBinding Control.BorderThickness}" BorderBrush="#FFFFFFFF" IsHitTestVisible="False">
+                            <UIElement.OpacityMask>
+                                <MultiBinding Converter="{StaticResource GroupBoxBorderGapMaskConverter}" ConverterParameter="7">
+                                    <Binding ElementName="Header" Path="ActualWidth" />
+                                    <Binding Path="ActualWidth" RelativeSource="{RelativeSource Self}" />
+                                    <Binding Path="ActualHeight" RelativeSource="{RelativeSource Self}" />
+                                </MultiBinding>
+                            </UIElement.OpacityMask>
+
+                            <Border BorderThickness="{TemplateBinding Control.BorderThickness}" BorderBrush="{TemplateBinding Control.BorderBrush}" CornerRadius="3">
+                                <Border BorderThickness="{TemplateBinding Control.BorderThickness}" BorderBrush="#FFFFFFFF" CornerRadius="2" />
+                            </Border>
+                        </Border>
+                    </Grid>
+                    <!--GroupBox will have no header space if header is not set with following triggers.-->
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="Header" Value="{x:Null}">
+                            <Setter TargetName="Header" Property="Padding" Value="0" />
+                        </Trigger>
+                        <Trigger Property="Header" Value="">
+                            <Setter TargetName="Header" Property="Padding" Value="0" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,51 @@
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\bin\Debug\Infor.QAA.Enterprise.Migration.exe
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\bin\Debug\Infor.QAA.Enterprise.Migration.pdb
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\DataBasePageView.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigratingPageView.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\SummaryPageView.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\WelcomePageView.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\App.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\MainWindow.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\DataBasePageView.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigratingPageView.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\SummaryPageView.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\WelcomePageView.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigrationWizardView.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\App.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration_MarkupCompile.cache
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration_MarkupCompile.lref
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\MainWindow.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigrationWizardView.baml
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.g.resources
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.Properties.Resources.resources
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.exe
+D:\InforQueryAndAnalysis\trunk\dev\src\QueryAndAnalysisEnterprise\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\bin\Debug\Infor.QAA.Enterprise.Migration.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\bin\Debug\Infor.QAA.Enterprise.Migration.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\DataBasePageView.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigratingPageView.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\SummaryPageView.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\WelcomePageView.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\App.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\DataBasePageView.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigratingPageView.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\SummaryPageView.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\WelcomePageView.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigrationWizardView.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\View\MigrationWizardView.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\Infor.QAA.Enterprise.Migration\obj\x86\Debug\Infor.QAA.Enterprise.Migration.csproj.GenerateResource.Cache

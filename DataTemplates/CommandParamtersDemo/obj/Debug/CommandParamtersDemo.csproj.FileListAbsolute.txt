@@ -1,0 +1,16 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\bin\Debug\CommandParamtersDemo.exe.config
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\bin\Debug\CommandParamtersDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\bin\Debug\CommandParamtersDemo.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\CommandParamtersDemo\obj\Debug\CommandParamtersDemo.pdb

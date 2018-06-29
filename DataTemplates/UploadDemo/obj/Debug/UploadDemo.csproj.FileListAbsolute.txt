@@ -1,0 +1,15 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\bin\Debug\UploadDemo.exe.config
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\bin\Debug\UploadDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\bin\Debug\UploadDemo.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\UploadDemo\obj\Debug\UploadDemo.pdb

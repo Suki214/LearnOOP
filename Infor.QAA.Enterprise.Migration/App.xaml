@@ -1,0 +1,16 @@
+﻿<Application x:Class="Infor.QAA.Enterprise.Migration.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             >
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme\Shared.xaml" />
+                <ResourceDictionary Source="Theme\Label.xaml" />
+                <ResourceDictionary Source="Theme\Button.xaml" />
+                <ResourceDictionary Source="Theme\TextBox.xaml" />
+                <ResourceDictionary Source="Theme\GroupBox.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

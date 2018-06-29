@@ -1,0 +1,55 @@
+﻿<Window x:Class="DataTemplates.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTemplates"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="DefaultDataTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                <TextBlock Grid.Column="1" Text="{Binding Value}" IsEnabled="True"/>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="EnumDataTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                <ComboBox Grid.Column="1" SelectedValue="{Binding Value}" 
+                          ItemsSource="{Binding PropertyType, Converter={local:EnumToListConverter}}"
+                          HorizontalAlignment="Stretch"/>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="BooleanDataTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                <CheckBox Grid.Column="1" IsChecked="{Binding Value}"/>
+            </Grid>
+        </DataTemplate>
+
+        <local:PropertyDataTemplateSelector x:Key="templateSelector"
+                                            DefaultDataTemplate="{StaticResource DefaultDataTemplate}"
+                                            BooleanDataTemplate="{StaticResource BooleanDataTemplate}" 
+              EnumDataTemplate="{StaticResource EnumDataTemplate}"/>        
+    </Window.Resources>
+        <ListBox ItemsSource="{Binding}" Grid.IsSharedSizeScope="False"
+                 HorizontalContentAlignment="Stretch"
+                 ItemTemplateSelector="{StaticResource templateSelector}">
+            
+        </ListBox>
+ 
+</Window>

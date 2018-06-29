@@ -1,0 +1,15 @@
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\App.g.cs
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo_MarkupCompile.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo_MarkupCompile.lref
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\bin\Debug\DomainDemo.exe.config
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\bin\Debug\DomainDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\bin\Debug\DomainDemo.pdb
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\MainWindow.baml
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.g.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.Properties.Resources.resources
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.csproj.GenerateResource.Cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.exe
+C:\Users\sxu\Documents\Visual Studio 2015\Projects\DataTemplates\DomainDemo\obj\Debug\DomainDemo.pdb

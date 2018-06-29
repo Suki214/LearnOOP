@@ -1,0 +1,17 @@
+﻿<Window x:Class="RoutedEventDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RoutedEventDemo"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="grid1" local:TimeButton.ReportTime="OnButtonClick">
+       
+        <Grid x:Name="grid2">
+            <Grid x:Name="grid3">
+                <StackPanel x:Name="stackPanel1">
+                    <ListBox x:Name="lb"/>
+                    <local:TimeButton Width="200" Height="200" Background="Aquamarine" ReportTime="OnButtonClick" />
+        </StackPanel>
+    </Grid>
+    </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Copyright © 2012 Infor. All rights reserved. The word and design marks set forth herein are trademarks and/or registered trademarks of Infor and/or its affiliates and subsidiaries.
+    All rights reserved. All other trademarks listed herein are the property of their respective owners. www.infor.com.-->
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Shared.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <Style TargetType="Label" x:Key="label-ux3" BasedOn="{StaticResource base-control-ux3}">
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+        <Setter Property="Foreground" Value="#1a1a1a"></Setter>
+        <Setter Property="Height" Value="20"></Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Border Name="BorderTextBox" Margin="8,0,0,0" CornerRadius="3" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style TargetType="Label" x:Key="label-alignLeft-ux3" BasedOn="{StaticResource label-ux3}">
+        <Setter Property="HorizontalContentAlignment" Value="Left"></Setter>
+    </Style>
+
+    <!--for Sign In Dialog-->
+    <Style TargetType="Label" x:Key="label-product-name-ux3" >
+        <Setter Property="FontFamily" Value="Arial"/>
+        <Setter Property="FontSize" Value="24"></Setter>
+        <Setter Property="Foreground" Value="#666666"></Setter>
+    </Style>
+    <!--label-product-name-ux3 END-->
+
+    <!--for Wait Dialog-->
+    <Style x:Key="wait-title-label-ux3" TargetType="Label" BasedOn="{StaticResource base-control-ux3}">
+        <Setter Property="FontSize" Value="16"></Setter>
+    </Style>
+
+    <Style x:Key="wait-message-label-ux3" TargetType="Label" BasedOn="{StaticResource base-control-ux3}">
+    </Style>
+
+</ResourceDictionary>

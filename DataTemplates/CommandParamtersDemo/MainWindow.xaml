@@ -1,0 +1,36 @@
+﻿<Window x:Class="CommandParamtersDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandParamtersDemo"    
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
+
+    <ListBox x:Name="listBox" ItemsSource="{Binding DataList}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <Grid x:Name="grid">
+                    <!--<local:WaitingProgress/>-->
+                    <Button Command="{Binding RelativeSource={RelativeSource AncestorType=UserControl},Path=DataContext.BtnCommand}"
+                    CommandParameter="{Binding RelativeSource={x:Static RelativeSource.Self}}">
+                        <!-- 传参是Button控件绑定的ItemsSource，即这里是DataList列表 -->
+                        <Image Tag="{Binding id}" x:Name="img" Stretch="UniformToFill" Width="150" Height="150" >
+                        </Image>
+                    </Button>
+                </Grid>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+
+        <ListBox.ItemsPanel>
+            <ItemsPanelTemplate>
+                <WrapPanel Name="wrapPanel" HorizontalAlignment="Stretch" />
+            </ItemsPanelTemplate>
+        </ListBox.ItemsPanel>
+    </ListBox>
+
+</Window>

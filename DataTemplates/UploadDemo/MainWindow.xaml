@@ -1,0 +1,79 @@
+﻿<Window x:Class="UploadDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UploadDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+
+    <DataGrid ItemsSource="{Binding VideoList}">
+
+        <DataGrid.Columns>
+
+            <!--序号-->
+
+            <DataGridTextColumn Header="序号" Width="80" Binding="{Binding Index}"/>
+
+            <!--视频名称-->
+
+            <DataGridTextColumn Header="视频名称" Width="300" Binding="{Binding Name}" />
+
+            <!--文件大小-->
+
+            <DataGridTextColumn Header="文件大小" Width="120" Binding="{Binding SizeString}" />
+
+            <!--源视频地址-->
+
+            <DataGridTextColumn Header="源视频地址" Width="280" Binding="{Binding SourcePath}" />
+
+            <!--状态-->
+
+            <DataGridTextColumn Header="状态" Width="120" Binding="{Binding StatusString}" />
+
+            <!--上传进度-->
+
+            <DataGridTemplateColumn Header="上传进度" Width="260">
+
+                <DataGridTemplateColumn.CellTemplate>
+
+                    <DataTemplate>
+
+                        <ProgressBar Value="{Binding Progress}" Margin="20,0"/>
+
+                    </DataTemplate>
+
+                </DataGridTemplateColumn.CellTemplate>
+
+            </DataGridTemplateColumn>
+
+            <!--上传速度-->
+
+            <DataGridTextColumn Header="上传速度" Width="150" Binding="{Binding SpeedString}" />
+
+            <!--操作-->
+
+            <DataGridTemplateColumn Header="操作" MinWidth="120">
+
+                <DataGridTemplateColumn.CellTemplate>
+
+                    <DataTemplate>
+
+                        <Button Content="{Binding OperationString}"  
+ 
+                      Command="{Binding VideoOperationCommand}"  
+ 
+                      CommandParameter="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}, Path=SelectedItem}" />
+
+                    </DataTemplate>
+
+                </DataGridTemplateColumn.CellTemplate>
+
+            </DataGridTemplateColumn>
+
+        </DataGrid.Columns>
+
+    </DataGrid>
+
+
+</Window>

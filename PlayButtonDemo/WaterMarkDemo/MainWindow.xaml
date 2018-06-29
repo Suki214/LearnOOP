@@ -1,0 +1,33 @@
+﻿<Window x:Class="WaterMarkDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WaterMarkDemo"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver"  Value="false">
+                    <Setter Property="Background"  Value="LightGray"></Setter>
+                </Trigger>                
+            </Style.Triggers>            
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Where:" ></Label>
+        <Label Content="What:" Grid.Row="1" ></Label>
+        <!--Method 1, use LostFocus and GotFocus event to deal with watermark-->
+        <!--<TextBox Name="tbWhere" Text="Where." Grid.Row="0" Grid.Column="1" LostFocus="OnInputTextBoxLostFocus" GotFocus="OnInputTextBoxGotFocus"/>
+        <TextBox Name="tbWhat" Text="What." Grid.Row="1" Grid.Column="1" LostFocus="OnInputTextBoxLostFocus" GotFocus="OnInputTextBoxGotFocus"/>-->
+        <TextBox Name="tbWhere"  Grid.Row="0" Grid.Column="1" local:TextBoxFocusBehavior.IsWatermarkEnabled="true" local:TextBoxFocusBehavior.Watermark="Where." />
+        <TextBox Name="tbWhat"  Grid.Row="1" Grid.Column="1" local:TextBoxFocusBehavior.IsWatermarkEnabled="true" local:TextBoxFocusBehavior.Watermark="What."/>
+
+    </Grid>
+</Window>
