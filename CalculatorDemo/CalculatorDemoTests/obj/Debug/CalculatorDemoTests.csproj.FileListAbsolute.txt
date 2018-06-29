@@ -1,0 +1,16 @@
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\CalculatorDemoTests.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\CalculatorDemoTests.pdb
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\CalculatorDemo.exe
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\CalculatorDemo.pdb
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\CalculatorDemo.exe.config
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\obj\Debug\CalculatorDemoTests.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\obj\Debug\CalculatorDemoTests.dll
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\obj\Debug\CalculatorDemoTests.pdb
+c:\users\sxu\source\repos\CalculatorDemo\CalculatorDemoTests\obj\Debug\CalculatorDemoTests.csprojResolveAssemblyReference.cache
