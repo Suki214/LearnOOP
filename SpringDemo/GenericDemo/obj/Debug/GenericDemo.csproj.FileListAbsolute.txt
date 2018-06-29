@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\bin\Debug\GenericDemo.exe.config
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\bin\Debug\GenericDemo.exe
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\bin\Debug\GenericDemo.pdb
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\obj\Debug\GenericDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\obj\Debug\GenericDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\obj\Debug\GenericDemo.exe
+C:\Users\sxu\source\repos\SpringDemo\GenericDemo\obj\Debug\GenericDemo.pdb

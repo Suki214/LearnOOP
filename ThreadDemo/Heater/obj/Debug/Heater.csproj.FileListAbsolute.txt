@@ -1,0 +1,15 @@
+C:\Users\sxu\source\repos\ThreadDemo\Heater\bin\Debug\Heater.exe.config
+C:\Users\sxu\source\repos\ThreadDemo\Heater\bin\Debug\Heater.exe
+C:\Users\sxu\source\repos\ThreadDemo\Heater\bin\Debug\Heater.pdb
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\MainWindow.g.cs
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\App.g.cs
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater_MarkupCompile.cache
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater_MarkupCompile.lref
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\MainWindow.baml
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.g.resources
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.Properties.Resources.resources
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.csproj.GenerateResource.Cache
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.exe
+C:\Users\sxu\source\repos\ThreadDemo\Heater\obj\Debug\Heater.pdb

@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\bin\Debug\HeaterWithinConsole.exe.config
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\bin\Debug\HeaterWithinConsole.exe
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\bin\Debug\HeaterWithinConsole.pdb
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\obj\Debug\HeaterWithinConsole.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\obj\Debug\HeaterWithinConsole.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\obj\Debug\HeaterWithinConsole.exe
+C:\Users\sxu\source\repos\ThreadDemo\HeaterWithinConsole\obj\Debug\HeaterWithinConsole.pdb

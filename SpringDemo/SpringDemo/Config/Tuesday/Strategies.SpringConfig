@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects >
+  <description>object decalration</description>
+  <object name ="discountStrategy" type="SpringDemo.StrategyForTuesday, SpringDemo"/>
+  <object name="casher" type="SpringDemo.Casher, SpringDemo">
+    <constructor-arg name="strategy" ref="discountStrategy"/>
+  </object>
+</objects>

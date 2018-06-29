@@ -1,0 +1,49 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext >
+        <local:CalculateViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Name="Result" Content="{Binding Number, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Right" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Background="LightGray"></Label>
+        <Button Name="ClearRow" Grid.Row="1" Grid.Column="0" Content="CE" IsEnabled="False" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="ClearAll" Command="{Binding ClearAllClickCommand}" Grid.Row="1" Grid.Column="1" Content="C"  HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="ClearOneChar" Grid.Row="1" Grid.Column="2" Content="~" IsEnabled="False" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Add" Command="{Binding OperateClickCommand}" CommandParameter="+"  Grid.Row="1" Grid.Column="3" Content="+" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Delete" Command="{Binding OperateClickCommand}" CommandParameter="-" Grid.Row="2" Grid.Column="3" Content="-" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Multiple" Command="{Binding OperateClickCommand}" CommandParameter="*" Grid.Row="3" Grid.Column="3" Content="*" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Devide" Command="{Binding OperateClickCommand}" CommandParameter="/" Grid.Row="4" Grid.Column="3" Content="/" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number1" Command="{Binding NumberClickCommand}" CommandParameter="1"  Grid.Row="2" Grid.Column="0" Content="1" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number2"  Command="{Binding NumberClickCommand}" CommandParameter="2" Grid.Row="2" Grid.Column="1" Content="2" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number3" Command="{Binding NumberClickCommand}" CommandParameter="3" Grid.Row="2" Grid.Column="2" Content="3" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number4" Command="{Binding NumberClickCommand}" CommandParameter="{Binding ElementName=Number4 ,Path=Content}" Grid.Row="3" Grid.Column="0" Content="4" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number5" Command="{Binding NumberClickCommand}" CommandParameter="{Binding ElementName=Number5, Path=Content}" Grid.Row="3" Grid.Column="1" Content="5" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number6" Command="{Binding NumberClickCommand}" CommandParameter="6" Grid.Row="3" Grid.Column="2" Content="6" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number7" Command="{Binding NumberClickCommand}" CommandParameter="7" Grid.Row="4" Grid.Column="0" Content="7" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number8" Command="{Binding NumberClickCommand}" CommandParameter="8" Grid.Row="4" Grid.Column="1" Content="8" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number9" Command="{Binding NumberClickCommand}" CommandParameter="9" Grid.Row="4" Grid.Column="2" Content="9" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Negative" Grid.Row="5" Grid.Column="0" Content="_" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Number0" Command="{Binding NumberClickCommand}" CommandParameter="0" Grid.Row="5" Grid.Column="1" Content="0" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="DecimalPoint" Command="{Binding NumberClickCommand}" CommandParameter="." Grid.Row="5" Grid.Column="2" Content="." HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+        <Button Name="Equal" Command="{Binding EqualClickCommand}" Grid.Row="5" Grid.Column="3" Content="=" HorizontalContentAlignment="Center" Background="AliceBlue"></Button>
+    </Grid>
+</Window>

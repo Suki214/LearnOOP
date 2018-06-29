@@ -1,0 +1,7 @@
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\bin\Debug\SpringDemo.exe.config
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\bin\Debug\SpringDemo.exe
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\bin\Debug\SpringDemo.pdb
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\obj\Debug\SpringDemo.csprojResolveAssemblyReference.cache
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\obj\Debug\SpringDemo.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\obj\Debug\SpringDemo.exe
+c:\users\sxu\source\repos\SpringDemo\SpringDemo\obj\Debug\SpringDemo.pdb
