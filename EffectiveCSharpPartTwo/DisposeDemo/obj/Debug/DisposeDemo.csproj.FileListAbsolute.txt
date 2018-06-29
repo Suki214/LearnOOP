@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\bin\Debug\DisposeDemo.exe.config
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\bin\Debug\DisposeDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\bin\Debug\DisposeDemo.pdb
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\obj\Debug\DisposeDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\obj\Debug\DisposeDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\obj\Debug\DisposeDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\DisposeDemo\obj\Debug\DisposeDemo.pdb

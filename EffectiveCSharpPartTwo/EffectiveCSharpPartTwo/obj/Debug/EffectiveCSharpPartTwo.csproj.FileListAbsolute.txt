@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\bin\Debug\EffectiveCSharpPartTwo.exe.config
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\bin\Debug\EffectiveCSharpPartTwo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\bin\Debug\EffectiveCSharpPartTwo.pdb
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\obj\Debug\EffectiveCSharpPartTwo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\obj\Debug\EffectiveCSharpPartTwo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\obj\Debug\EffectiveCSharpPartTwo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\EffectiveCSharpPartTwo\obj\Debug\EffectiveCSharpPartTwo.pdb

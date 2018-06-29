@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\bin\Debug\ConstructorDemo.exe.config
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\bin\Debug\ConstructorDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\bin\Debug\ConstructorDemo.pdb
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\obj\Debug\ConstructorDemo.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\obj\Debug\ConstructorDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\obj\Debug\ConstructorDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\ConstructorDemo\obj\Debug\ConstructorDemo.pdb

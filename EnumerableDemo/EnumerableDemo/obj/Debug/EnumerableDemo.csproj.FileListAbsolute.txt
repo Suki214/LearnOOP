@@ -1,0 +1,7 @@
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\bin\Debug\EnumerableDemo.exe.config
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\bin\Debug\EnumerableDemo.exe
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\bin\Debug\EnumerableDemo.pdb
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\obj\Debug\EnumerableDemo.csprojResolveAssemblyReference.cache
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\obj\Debug\EnumerableDemo.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\obj\Debug\EnumerableDemo.exe
+c:\users\sxu\source\repos\EnumerableDemo\EnumerableDemo\obj\Debug\EnumerableDemo.pdb

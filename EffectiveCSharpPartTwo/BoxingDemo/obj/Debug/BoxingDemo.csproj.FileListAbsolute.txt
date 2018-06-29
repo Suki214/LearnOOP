@@ -1,0 +1,7 @@
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\bin\Debug\BoxingDemo.exe.config
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\bin\Debug\BoxingDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\bin\Debug\BoxingDemo.pdb
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\obj\Debug\BoxingDemo.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\obj\Debug\BoxingDemo.exe
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\obj\Debug\BoxingDemo.pdb
+C:\Users\sxu\source\repos\EffectiveCSharpPartTwo\BoxingDemo\obj\Debug\BoxingDemo.csprojResolveAssemblyReference.cache
