@@ -1,0 +1,15 @@
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\bin\Debug\CustomTextBox.dll
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\bin\Debug\CustomTextBox.pdb
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox_MarkupCompile.cache
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox_MarkupCompile.lref
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\Themes\Generic.baml
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.g.resources
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.Properties.Resources.resources
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.csproj.GenerateResource.Cache
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.dll
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\obj\Debug\CustomTextBox.pdb
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\bin\Debug\CustomButton.dll
+C:\Users\sxu\source\repos\CustomTextBox\CustomTextBox\bin\Debug\CustomButton.pdb
