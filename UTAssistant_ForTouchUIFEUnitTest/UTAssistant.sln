@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E77BC209-061C-4EF7-AE58-8887C72E80D7}"
+	ProjectSection(SolutionItems) = preProject
+		IntegrationTests.testsettings = IntegrationTests.testsettings
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTAssistant", "UT\UTAssistant.csproj", "{6797C2A1-00E5-4D60-A8CB-44D440F6AB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT_IntegrationTests", "UT\UT_IntegrationTests\UT_IntegrationTests.csproj", "{E6A9C312-008A-4BFB-AC08-F2AB61263EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT_UnitTests", "UT\UT_UnitTests\UT_UnitTests.csproj", "{65D7A21B-9DE4-4C03-9F27-78A98F6C42FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTAssistant.FE", "UTAssistant.FE\UTAssistant.FE.csproj", "{AE621DEA-001F-405B-B6F5-D23CBC078E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTAssistant.BE", "UTAssistant.BE\UTAssistant.BE.csproj", "{152F45FA-D9F2-4AE7-9C61-AF88F087D669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTAssistantStandalone", "UTAssistantStandalone\UTAssistantStandalone.csproj", "{188E60F4-8BB8-4422-B9EF-D93CDD066979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6797C2A1-00E5-4D60-A8CB-44D440F6AB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6797C2A1-00E5-4D60-A8CB-44D440F6AB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6797C2A1-00E5-4D60-A8CB-44D440F6AB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6797C2A1-00E5-4D60-A8CB-44D440F6AB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A9C312-008A-4BFB-AC08-F2AB61263EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A9C312-008A-4BFB-AC08-F2AB61263EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A9C312-008A-4BFB-AC08-F2AB61263EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A9C312-008A-4BFB-AC08-F2AB61263EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D7A21B-9DE4-4C03-9F27-78A98F6C42FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D7A21B-9DE4-4C03-9F27-78A98F6C42FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D7A21B-9DE4-4C03-9F27-78A98F6C42FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D7A21B-9DE4-4C03-9F27-78A98F6C42FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE621DEA-001F-405B-B6F5-D23CBC078E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE621DEA-001F-405B-B6F5-D23CBC078E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE621DEA-001F-405B-B6F5-D23CBC078E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE621DEA-001F-405B-B6F5-D23CBC078E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152F45FA-D9F2-4AE7-9C61-AF88F087D669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152F45FA-D9F2-4AE7-9C61-AF88F087D669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152F45FA-D9F2-4AE7-9C61-AF88F087D669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152F45FA-D9F2-4AE7-9C61-AF88F087D669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188E60F4-8BB8-4422-B9EF-D93CDD066979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188E60F4-8BB8-4422-B9EF-D93CDD066979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188E60F4-8BB8-4422-B9EF-D93CDD066979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188E60F4-8BB8-4422-B9EF-D93CDD066979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AC06CD9-4D8E-4DC6-8251-611B65637A07}
+	EndGlobalSection
+EndGlobal

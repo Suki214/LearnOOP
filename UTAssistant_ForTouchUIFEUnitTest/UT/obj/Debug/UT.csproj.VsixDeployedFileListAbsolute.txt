@@ -1,0 +1,4 @@
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.pkgdef
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\extension.vsixmanifest
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.pdb

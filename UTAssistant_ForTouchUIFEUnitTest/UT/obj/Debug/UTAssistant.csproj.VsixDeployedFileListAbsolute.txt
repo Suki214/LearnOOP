@@ -1,0 +1,24 @@
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.pkgdef
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\extension.vsixmanifest
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT\1.0\\UT.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UT.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UT.pkgdef
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\extension.vsixmanifest
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UT.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UTAssistant.FE.exe
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UTAssistant.FE.exe.config
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UTAssistant.FE.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UTAssistant.BE.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\UTAssistant.BE.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\-\UT Assistant\1.0\\NUnit.Framework.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UT.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\NUnit.Framework.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UTAssistant.BE.dll
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UTAssistant.FE.exe
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UT.pkgdef
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\extension.vsixmanifest
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UT.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UTAssistant.FE.exe.config
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UTAssistant.BE.pdb
+C:\Users\z003cymv\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Xian Lei\UT Assistant\1.0\\UTAssistant.FE.pdb

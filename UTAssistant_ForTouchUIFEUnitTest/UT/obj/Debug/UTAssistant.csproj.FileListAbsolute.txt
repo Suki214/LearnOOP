@@ -1,0 +1,75 @@
+D:\Dpl\UT\UT\bin\Debug\UT.dll
+D:\Dpl\UT\UT\bin\Debug\UT.pdb
+D:\Dpl\UT\UT\bin\Debug\UT.pkgdef
+D:\Dpl\UT\UT\bin\Debug\UT.vsix
+D:\Dpl\UT\UT\bin\Debug\extension.vsixmanifest
+D:\Dpl\UT\UT\obj\Debug\UTAssistant.csproj.ResolveComReference.cache
+D:\Dpl\UT\UT\obj\Debug\VSPackage.resources
+D:\Dpl\UT\UT\obj\Debug\VSPackage.UT.Resources.resources
+D:\Dpl\UT\UT\obj\Debug\UTAssistant.csproj.GenerateResource.Cache
+D:\Dpl\UT\UT\obj\Debug\VSCT.read.1.tlog
+D:\Dpl\UT\UT\obj\Debug\VSCT.write.1.tlog
+D:\Dpl\UT\UT\obj\Debug\CtoResourceMerger.cache
+D:\Dpl\UT\UT\obj\Debug\VSPackage.resources.original
+D:\Dpl\UT\UT\obj\Debug\UT.dll
+D:\Dpl\UT\UT\obj\Debug\UT.pdb
+D:\Dpl\UT\UT\obj\Debug\UT.pkgdef
+D:\Dpl\UT\UT\obj\Debug\UT.latest.pkgdef
+D:\Dpl\UT\UT\obj\Debug\extension.vsixmanifest
+D:\Dpl\UT\UT\obj\Debug\UTAssistant.cto
+D:\Dpl\UT\UT\obj\Debug\UTAssistant.csprojResolveAssemblyReference.cache
+D:\Dpl\UT\UT\bin\Debug\UTAssistant.FE.exe
+D:\Dpl\UT\UT\bin\Debug\UTAssistant.FE.pdb
+D:\Dpl\UT\UT\bin\Debug\UTAssistant.BE.dll
+D:\Dpl\UT\UT\bin\Debug\UTAssistant.BE.pdb
+D:\Dpl\UT\UT\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UT.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UT.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UT.pkgdef
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UT.vsix
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\extension.vsixmanifest
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UTAssistant.BE.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UTAssistant.FE.exe
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UTAssistant.BE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\bin\Debug\UTAssistant.FE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UTAssistant.csprojResolveAssemblyReference.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UTAssistant.csproj.ResolveComReference.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\VSPackage.resources
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\VSPackage.UT.Resources.resources
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UTAssistant.csproj.GenerateResource.Cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UTAssistant.cto
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\VSCT.read.1.tlog
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\VSCT.write.1.tlog
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\CtoResourceMerger.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\VSPackage.resources.original
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UT.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UT.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UT.pkgdef
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\UT.latest.pkgdef
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\obj\Debug\extension.vsixmanifest
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UT.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UT.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UT.pkgdef
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UT.vsix
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\extension.vsixmanifest
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\NUnit.Framework.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UTAssistant.BE.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UTAssistant.FE.exe
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\bin\Debug\UTAssistant.FE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UTAssistant.csprojResolveAssemblyReference.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UTAssistant.csproj.ResolveComReference.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\VSPackage.resources
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\VSPackage.UT.Resources.resources
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UTAssistant.csproj.GenerateResource.Cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UTAssistant.cto
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\VSCT.read.1.tlog
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\VSCT.write.1.tlog
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\CtoResourceMerger.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\VSPackage.resources.original
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UT.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UT.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UT.pkgdef
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\UT.latest.pkgdef
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\obj\Debug\extension.vsixmanifest

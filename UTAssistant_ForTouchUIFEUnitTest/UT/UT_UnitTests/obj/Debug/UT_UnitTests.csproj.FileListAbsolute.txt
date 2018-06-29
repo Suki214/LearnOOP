@@ -1,0 +1,45 @@
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UT_UnitTests.dll
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UT_UnitTests.pdb
+D:\Dpl\UT\UT\UT_UnitTests\obj\Debug\UT_UnitTests.csprojResolveAssemblyReference.cache
+D:\Dpl\UT\UT\UT_UnitTests\obj\Debug\UT_UnitTests.dll
+D:\Dpl\UT\UT\UT_UnitTests\obj\Debug\UT_UnitTests.pdb
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.dll
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.UnitTestLibrary.dll
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UT.dll
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UT.pdb
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.pdb
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.exe
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.pdb
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.dll
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.pdb
+D:\Dpl\UT\UT\UT_UnitTests\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UT_UnitTests.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UT_UnitTests.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.UnitTestLibrary.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UT.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.exe
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UT.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\obj\Debug\UT_UnitTests.csprojResolveAssemblyReference.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\obj\Debug\UT_UnitTests.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UT\UT_UnitTests\obj\Debug\UT_UnitTests.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UT_UnitTests.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UT_UnitTests.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.UnitTestLibrary.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\NUnit.Framework.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UT.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.exe
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UT.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\Microsoft.VSSDK.TestHostFramework.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\bin\Debug\UTAssistant.FE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\obj\Debug\UT_UnitTests.csprojResolveAssemblyReference.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\obj\Debug\UT_UnitTests.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UT\UT_UnitTests\obj\Debug\UT_UnitTests.pdb

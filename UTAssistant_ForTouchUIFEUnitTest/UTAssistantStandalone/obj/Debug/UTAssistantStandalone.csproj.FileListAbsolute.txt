@@ -1,0 +1,67 @@
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe.config
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.pdb
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistant.BE.dll
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistant.FE.exe
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistant.BE.pdb
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\UTAssistant.FE.pdb
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csprojResolveAssemblyReference.cache
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\App.g.cs
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone_MarkupCompile.cache
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.Properties.Resources.resources
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csproj.GenerateResource.Cache
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.exe
+D:\Dpl\UT\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.pdb
+D:\Dpl\UT\UTAssistantStandalone\bin\Debug\NUnit.Framework.dll
+C:\Users\z003cymv\Desktop\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe.config
+C:\Users\z003cymv\Desktop\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.exe
+C:\Users\z003cymv\Desktop\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe.config
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.exe
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistant.BE.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistant.FE.exe
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistant.BE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\bin\Debug\UTAssistant.FE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csprojResolveAssemblyReference.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\App.g.cs
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone_MarkupCompile.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.Properties.Resources.resources
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csproj.GenerateResource.Cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe.config
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.exe
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\NUnit.Framework.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.BE.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.FE.exe
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.FE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csprojResolveAssemblyReference.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\App.g.cs
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone_MarkupCompile.cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.Properties.Resources.resources
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csproj.GenerateResource.Cache
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\NUnit.Framework.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe.config
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.exe
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistantStandalone.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.BE.dll
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.FE.exe
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.BE.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.FE.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\UTAssistant.FE.exe.config
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\NUnit.Framework.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\App.g.cs
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone_MarkupCompile.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.Properties.Resources.resources
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csproj.GenerateResource.Cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.exe
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\obj\Debug\UTAssistantStandalone.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistantStandalone\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

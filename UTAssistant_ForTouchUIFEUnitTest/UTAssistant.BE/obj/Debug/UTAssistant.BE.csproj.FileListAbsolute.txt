@@ -1,0 +1,27 @@
+D:\Dpl\UT\UTAssistant.BE\obj\Debug\UTAssistant.BE.csprojResolveAssemblyReference.cache
+D:\Dpl\UT\UTAssistant.BE\bin\Debug\UTAssistant.BE.dll
+D:\Dpl\UT\UTAssistant.BE\bin\Debug\UTAssistant.BE.pdb
+D:\Dpl\UT\UTAssistant.BE\obj\Debug\UTAssistant.BE.dll
+D:\Dpl\UT\UTAssistant.BE\obj\Debug\UTAssistant.BE.pdb
+D:\Dpl\UT\UTAssistant.BE\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\bin\Debug\UTAssistant.BE.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\bin\Debug\UTAssistant.BE.pdb
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\bin\Debug\NUnit.Framework.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\obj\Debug\UTAssistant.BE.csprojResolveAssemblyReference.cache
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\obj\Debug\UTAssistant.BE.dll
+D:\Chris' Documents\Workshops\Attribute\UTAssistant\UTAssistant.BE\obj\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\UTAssistant.BE.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\NUnit.Framework.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.dll
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\NUnit.Framework.pdb
+D:\Chris\Dpl\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\UTAssistant.BE.dll
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\UTAssistant.BE.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\NUnit.Framework.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.dll
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\obj\Debug\UTAssistant.BE.pdb
+C:\Users\sxu\source\repos\UTAssistant_ForTouchUIFEUnitTest\UTAssistant.BE\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
