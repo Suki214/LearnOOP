@@ -1,0 +1,7 @@
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\bin\Debug\MyFirstWebServiceConsumerApp.exe.config
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\bin\Debug\MyFirstWebServiceConsumerApp.exe
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\bin\Debug\MyFirstWebServiceConsumerApp.pdb
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\obj\Debug\MyFirstWebServiceConsumerApp.csprojResolveAssemblyReference.cache
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\obj\Debug\MyFirstWebServiceConsumerApp.csproj.CoreCompileInputs.cache
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\obj\Debug\MyFirstWebServiceConsumerApp.exe
+c:\users\sxu\source\repos\MyFirstWebServiceConsumerApp\MyFirstWebServiceConsumerApp\obj\Debug\MyFirstWebServiceConsumerApp.pdb

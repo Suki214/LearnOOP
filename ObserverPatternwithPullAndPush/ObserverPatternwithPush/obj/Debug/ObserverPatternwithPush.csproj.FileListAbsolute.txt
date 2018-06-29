@@ -1,0 +1,14 @@
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.exe.config
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.exe
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.pdb
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.exe
+C:\Users\sxu\source\repos\ObserverPatternwithPull\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.pdb
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.exe.config
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.exe
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\bin\Debug\ObserverPatternwithPush.pdb
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.csprojResolveAssemblyReference.cache
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.csproj.CoreCompileInputs.cache
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.exe
+C:\Users\sxu\source\repos\ObserverPatternwithPullAndPush\ObserverPatternwithPush\obj\Debug\ObserverPatternwithPush.pdb
