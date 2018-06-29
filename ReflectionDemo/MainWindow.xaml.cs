@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ReflecteForUTDemo;
 
 namespace ReflectionDemo
 {
@@ -20,20 +21,37 @@ namespace ReflectionDemo
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string[] BookingStatus = { "NoUse", "未提交", "已提交", "已取消", "受理中", "已退回", "已订妥", "已过期" };
         public MainWindow()
         {
             InitializeComponent();
 
-            int orderId = 1;
-            HotelOrder myOrder = GetItem(orderId);
-            lbStatus.Text = BookingStatus[myOrder.StatusId];
+            ////this.DataContext = this;
 
+            //Program p = new Program();
+            //var root = p.GetTree();
+            //var projects = new UtTreeViewModel(root);
+            //this.DataContext = projects;
+
+            //this.ShowDialog();
         }
-
-        private HotelOrder GetItem(object orderId)
+        private void SearchText_KeyDown(object sender, KeyEventArgs e)
         {
-            return new HotelOrder(1,1);
+            if(e.Key == Key.Enter)
+            {
+                var vm = DataContext as UtTreeViewModel;
+                if (vm != null)
+                {
+                    vm.SearchCommand.Execute(null);
+                }
+            }
         }
+        private void UtsTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            var selectedUtItemVm = e.NewValue as UtItemViewModel;
+            if (selectedUtItemVm != null)
+            {
+                FailedStackTraceTextBlock.DataContext = selectedUtItemVm;
+            }
+        }        
     }
 }
