@@ -10,6 +10,7 @@ namespace CallbackWithDelegate
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("test for commite");
         }
     }
 }
