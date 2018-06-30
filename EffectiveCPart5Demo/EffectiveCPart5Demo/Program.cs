@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EffectiveCPart5Demo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main( string[] args )
         {
-            Console.WriteLine("Test...");
+            Logger logger = new Logger();
+            logger.AddMsg( 1, "an error happens " );
+            ConsoleLogger clogger = new ConsoleLogger();
+            Console.ReadKey();
         }
     }
 }
