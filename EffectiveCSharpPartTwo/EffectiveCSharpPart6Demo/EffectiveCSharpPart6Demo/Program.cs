@@ -10,6 +10,13 @@ namespace EffectiveCSharpPart6Demo
     {
         static void Main(string[] args)
         {
+            Customer c1= new Customer(){Revene = 1};
+            Customer c2= new Customer(){Revene = 2};
+
+            int result= c1.CompareTo( c2 );
+
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }
