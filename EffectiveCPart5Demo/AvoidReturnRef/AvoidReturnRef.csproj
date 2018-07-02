@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{30D3C6F9-65A5-418F-B2F6-791E515D650D}</ProjectGuid>
+    <ProjectGuid>{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EffectiveCPart5Demo</RootNamespace>
-    <AssemblyName>EffectiveCPart5Demo</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>AvoidReturnRef</RootNamespace>
+    <AssemblyName>AvoidReturnRef</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleLogger.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Loggers.cs" />
+    <Compile Include="ImportantData.cs" />
+    <Compile Include="MyBusinessObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

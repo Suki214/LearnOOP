@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{30D3C6F9-65A5-418F-B2F6-791E515D650D}</ProjectGuid>
+    <ProjectGuid>{5B9435EE-7A95-4FEE-9433-96279F01222B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EffectiveCPart5Demo</RootNamespace>
-    <AssemblyName>EffectiveCPart5Demo</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>ImplyISerializableDemo</RootNamespace>
+    <AssemblyName>ImplyISerializableDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -42,9 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleLogger.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Loggers.cs" />
+    <Compile Include="MyDerivedType.cs" />
+    <Compile Include="MyType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

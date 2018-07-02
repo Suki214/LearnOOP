@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveCPart5Demo", "Effe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackWithDelegate", "CallbackWithDelegate\CallbackWithDelegate.csproj", "{54863254-04E5-4B69-BE2C-B600EC2F3B90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvoidReturnRef", "AvoidReturnRef\AvoidReturnRef.csproj", "{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplyISerializableDemo", "ImplyISerializableDemo\ImplyISerializableDemo.csproj", "{5B9435EE-7A95-4FEE-9433-96279F01222B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54863254-04E5-4B69-BE2C-B600EC2F3B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE2CE84-93EE-4766-A2DF-E473E8A9EAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9435EE-7A95-4FEE-9433-96279F01222B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9435EE-7A95-4FEE-9433-96279F01222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9435EE-7A95-4FEE-9433-96279F01222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9435EE-7A95-4FEE-9433-96279F01222B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
