@@ -54,7 +54,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModel\AddOperate.cs" />
     <Compile Include="ViewModel\Calculate.cs" />
+    <Compile Include="ViewModel\OperateFactory.cs" />
+    <Compile Include="ViewModel\Operation.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

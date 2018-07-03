@@ -9,16 +9,33 @@ namespace CalculatorMachine.ViewModel
 {
     class RelayCommand : ICommand
     {
+        private Action<object> _execute;
+        private Predicate<object> _canExecute;
+
+        public RelayCommand(Action<object> execute) : this(execute, null) { }
+        public RelayCommand(Action<object> execute, Predicate<object> canExecute)
+        {
+            _canExecute = canExecute;
+            _execute = execute;
+        }
+
         public event EventHandler CanExecuteChanged;
 
         public bool CanExecute(object parameter)
         {
-            return true;
+            if (_canExecute == null)
+            {
+                return true;
+            }
+            else
+            {
+                return _canExecute(parameter);
+            }
         }
 
         public void Execute(object parameter)
         {
-            OnNumberClicked(parameter);
+            _execute(parameter);
         }
     }
 }
