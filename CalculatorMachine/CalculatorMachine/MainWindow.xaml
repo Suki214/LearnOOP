@@ -6,7 +6,44 @@
         xmlns:local="clr-namespace:CalculatorMachine"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="NormalOperationButton" TargetType="Button">
+            <Setter Property="FontSize" Value="40"></Setter>
+        </Style>
+        <Style x:Key="NormalNumberButton" TargetType="Button">
+            <Setter Property="FontSize" Value="30"></Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+        <TextBox x:Name="Result" Grid.ColumnSpan="4" Text="{Binding InputValue, UpdateSourceTrigger=PropertyChanged}"  FontSize="40" HorizontalAlignment="Right"></TextBox>
+        <Button Content="+" Style="{StaticResource NormalOperationButton}" Grid.Row="4" Grid.Column="3"></Button>
+        <Button Content="-" Style="{StaticResource NormalOperationButton}" Grid.Row="1" Grid.Column="3"></Button>
+        <Button Content="*" Style="{StaticResource NormalOperationButton}" Grid.Row="2" Grid.Column="3"></Button>
+        <Button Content="/" Style="{StaticResource NormalOperationButton}" Grid.Row="3" Grid.Column="3"></Button>
+        <Button Content="." Style="{StaticResource NormalOperationButton}" Grid.Row="4" Grid.Column="0"></Button>
+        <Button Content="1" x:Name="Number1" Style="{StaticResource NormalNumberButton}" Command="{Binding NumberClicked}" CommandParameter="{Binding ElementName=Number1}" Grid.Row="1" Grid.Column="0"></Button>
+        <Button Content="2" Style="{StaticResource NormalNumberButton}" Grid.Row="1" Grid.Column="1"></Button>
+        <Button Content="3" Style="{StaticResource NormalNumberButton}" Grid.Row="1" Grid.Column="2"></Button>
+        <Button Content="4" Style="{StaticResource NormalNumberButton}" Grid.Row="2" Grid.Column="0"></Button>
+        <Button Content="5" Style="{StaticResource NormalNumberButton}" Grid.Row="2" Grid.Column="1"></Button>
+        <Button Content="6" Style="{StaticResource NormalNumberButton}" Grid.Row="2" Grid.Column="2"></Button>
+        <Button Content="7" Style="{StaticResource NormalNumberButton}" Grid.Row="3" Grid.Column="0"></Button>
+        <Button Content="8" Style="{StaticResource NormalNumberButton}" Grid.Row="3" Grid.Column="1"></Button>
+        <Button Content="9" Style="{StaticResource NormalNumberButton}" Grid.Row="3" Grid.Column="2"></Button>
+        <Button Content="0" Style="{StaticResource NormalNumberButton}" Grid.Row="4" Grid.Column="1" ></Button>
+        <Button Content="=" Style="{StaticResource NormalOperationButton}" Grid.Row="4" Grid.Column="2" ></Button>
     </Grid>
 </Window>
