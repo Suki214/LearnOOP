@@ -33,13 +33,13 @@ namespace CalculatorMachine.ViewModel
                     result = MultiplyMethod(num1, num2);
                     break;
                 case "Devide":
-                    result = DevideeMethod(num1, num2);
+                    result = DevideMethod(num1, num2);
                     break;
             }
             return result;
         }
 
-        private double DevideeMethod(double num1, double num2)
+        private double DevideMethod(double num1, double num2)
         {
             return num1 / num2;
         }
