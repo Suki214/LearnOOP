@@ -35,7 +35,7 @@ namespace WizardDemo.ViewModel
                 if(cancelCommand == null)
                 {
                     cancelCommand = new RelayCommand(
-                        parm=>DialogClose(false));
+                        parm => DialogClose(false));
                 }
                 return cancelCommand;
             }
