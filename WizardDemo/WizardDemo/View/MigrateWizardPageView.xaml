@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="WizardDemo.View.MigrateWizardPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:WizardDemo.View"
+             xmlns:ViewModel="clr-namespace:WizardDemo.ViewModel"
+             mc:Ignorable="d" >
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type ViewModel:WelcomePageViewModel}">
+            <view:WelcomePageView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:DatabaseInfoPageViewModel}">
+            <view:DatabaseInfoPageView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:SummaryPageViewModel}">
+            <view:SummaryPageView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type ViewModel:MigratingPageViewModel}">
+            <view:MigratingPageView/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="wizardTemplate">
+            <TextBox x:Name="txt" Text="{Binding DisplayName, Mode=OneWay}" ></TextBox>
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding IsCurrentPage}" Value="True">
+                    <Setter TargetName="txt" Property="FontWeight" Value="Bold" ></Setter>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+        
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <HeaderedContentControl Header="Steps" HorizontalAlignment="Center">
+            <ItemsControl ItemsSource="{Binding Pages}" ItemTemplate="{StaticResource wizardTemplate}"></ItemsControl>
+        </HeaderedContentControl>
+        <Border BorderBrush="Gray" BorderThickness="2" Grid.Column="1" Grid.Row="0">
+            <HeaderedContentControl Content="{Binding CurrentPage}" Header="{Binding CurrentPage.DisplayName}">                
+            </HeaderedContentControl>
+        </Border>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="1,2,1,2" Content="Previous" Command="{Binding MovePreviousCommand}"></Button>
+            <Button Style="{StaticResource moveNextButtonStyle}" Margin="1,2,1,2" Grid.Column="1" Command="{Binding MoveNextCommand}"></Button>
+            <Button Content="Cancel" Margin="1,2,1,2" Grid.Column="2" Command="{Binding CancelCommand}"></Button>
+        </Grid>
+    </Grid>
+</UserControl>
