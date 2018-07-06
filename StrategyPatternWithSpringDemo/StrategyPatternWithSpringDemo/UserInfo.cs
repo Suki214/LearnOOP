@@ -1,4 +1,4 @@
-﻿namespace StrategyPatternWithSpringDemo
+﻿namespace NormalSpringDemo
 {
     public class UserInfo
     {

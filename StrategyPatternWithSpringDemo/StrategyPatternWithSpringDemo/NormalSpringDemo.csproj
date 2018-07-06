@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DC935B7B-4F31-4190-BEC6-47B5372262CD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StrategyPatternWithSpringDemo</RootNamespace>
-    <AssemblyName>StrategyPatternWithSpringDemo</AssemblyName>
+    <RootNamespace>NormalSpringDemo</RootNamespace>
+    <AssemblyName>NormalSpringDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
