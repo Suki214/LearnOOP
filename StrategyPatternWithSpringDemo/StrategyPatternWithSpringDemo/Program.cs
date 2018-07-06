@@ -14,7 +14,9 @@ namespace StrategyPatternWithSpringDemo
         {
             IApplicationContext ctx = ContextRegistry.GetContext();
             IUserInfoDal efDal = ctx.GetObject("UserInfoDal") as IUserInfoDal;
+            IUserInfoDal adoDal= ctx.GetObject("UserInfoDal2") as IUserInfoDal;
             efDal.Show();
+            adoDal.Show();
             Console.ReadKey();
         }
     }
