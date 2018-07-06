@@ -15,6 +15,9 @@ namespace StrategyWithSpringDemo
             //MondayDiscountStrategy mon = new MondayDiscountStrategy();
             //Casher c = new Casher(mon);
             //Console.WriteLine(c.CalculateProductDiscount(p1));
+
+
+
             Console.ReadKey();
         }
     }

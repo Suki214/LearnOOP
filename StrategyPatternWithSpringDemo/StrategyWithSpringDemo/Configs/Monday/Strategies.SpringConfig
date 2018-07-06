@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<object>
+  <property name="discountStrategy" type="StrategyWithSpringDemo.MondayDiscountStrategy, StrategyWithSpringDemo"/>
+  <property name="casher" type="StrategyWithSpringDemo.Casher, StrategyWithSpringDemo"/>
+  <construcor-arg name="strategy" ref="discountStrategy"/>
+</object>
