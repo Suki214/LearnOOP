@@ -22,12 +22,15 @@ namespace MefDemo
         //public IEnumerable<IBookService> BookServices { get; set; }
         public IEnumerable<object> BookServices { get; set; }
 
+        //导入属性，不分public，private
         [ImportMany]
         public List<string> InputStrings { get; set; }
 
+        //导入无参方法
         [Import]
         public Func<string> funcWithoudParm { get; set; }
 
+        //导入有参方法
         [Import]
         public Func<int,string> funcWithParm { get; set; }
 
@@ -51,11 +54,13 @@ namespace MefDemo
                     Console.WriteLine(s);
                 }
 
+                //调用无参方法
                 if (p.funcWithoudParm != null)
                 {
                     Console.WriteLine(p.funcWithoudParm());
                 }
 
+                //调用有参方法
                 if (p.funcWithParm!=null)
                 {
                     Console.WriteLine(p.funcWithParm(300));
