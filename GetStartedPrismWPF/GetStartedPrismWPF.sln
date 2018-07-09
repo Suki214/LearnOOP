@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetStartedPrismWPF", "GetStartedPrismWPF\GetStartedPrismWPF.csproj", "{9FD184E4-0D4B-40EB-91F5-BCA6C1122A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetStartedPrismWPF.MainModule", "GetStartedPrismWPF.MainModule\GetStartedPrismWPF.MainModule.csproj", "{4C85035E-AC80-45A3-9773-55FF64D229D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD184E4-0D4B-40EB-91F5-BCA6C1122A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD184E4-0D4B-40EB-91F5-BCA6C1122A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD184E4-0D4B-40EB-91F5-BCA6C1122A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD184E4-0D4B-40EB-91F5-BCA6C1122A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C85035E-AC80-45A3-9773-55FF64D229D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C85035E-AC80-45A3-9773-55FF64D229D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C85035E-AC80-45A3-9773-55FF64D229D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C85035E-AC80-45A3-9773-55FF64D229D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF6B97AF-8ABE-40E8-BB7D-21A4CD9E2974}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<Window x:Class="PrismDemo.PrismAppShell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrismDemo"
+        xmlns:prism="http://www.codeplex.com/prism"
+        mc:Ignorable="d"
+        Title="PrismAppShell" Height="900" Width="1200">
+    <Grid x:Name="LayoutRoot">
+        <DockPanel LastChildFill="True" HorizontalAlignment="Stretch" 
+
+                 Name="dockPanel1" VerticalAlignment="Stretch">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" 
+
+                    Background="#FFCCD4F8" Height="100">
+                <ContentControl prism:RegionManager.RegionName="RibbonRegion"></ContentControl>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#FFD9E1EF" Height="100">
+                <ContentControl prism:RegionManager.RegionName="StatusRegion"></ContentControl>
+            </StackPanel>
+            <ScrollViewer>
+                <StackPanel Orientation="Vertical" DockPanel.Dock="Left" Background="#FF50576F" Width="200">
+                    <ContentControl prism:RegionManager.RegionName="TreeRegion"></ContentControl>
+                </StackPanel>
+            </ScrollViewer>
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Right" Background="#FF677BA7" Width="100">
+                <ContentControl prism:RegionManager.RegionName="AlertRegion"></ContentControl>
+            </StackPanel>
+            <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFC0DBF2">
+                    <ContentControl prism:RegionManager.RegionName="BlotterRegion" 
+
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></ContentControl>
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+    </Grid>
+</Window>
