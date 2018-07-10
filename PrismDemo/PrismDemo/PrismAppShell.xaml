@@ -5,33 +5,71 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PrismDemo"
         xmlns:prism="http://www.codeplex.com/prism"
+        <!--xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon"-->
+        <!--this Ribbon Is archived-->
         mc:Ignorable="d"
         Title="PrismAppShell" Height="900" Width="1200">
+    <Window.Resources>
+        <DataTemplate x:Key="crap">
+            <StackPanel Width="100" Height="18"></StackPanel>
+        </DataTemplate>
+        <Style x:Key="TabItemStyleKey" TargetType="{x:Type TabItem}">
+            <Setter Property="Header" Value="{Binding Path=DataContext.ViewTile}"></Setter>
+            <Setter Property="HeaderTemplate" Value="{Binding Source=    {StaticResource crap}}"></Setter>
+        </Style>
+        <Style x:Key="TreeItemStyleKey" TargetType="{x:Type TreeViewItem}">
+            <Setter Property="Height" Value="Auto"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="BorderThickness" Value="0" />
+        </Style>
+    </Window.Resources>
     <Grid x:Name="LayoutRoot">
         <DockPanel LastChildFill="True" HorizontalAlignment="Stretch" 
 
-                 Name="dockPanel1" VerticalAlignment="Stretch">
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" 
+                Name="dockPanel1" VerticalAlignment="Stretch">
+            <my:ribbon prism:RegionManager.RegionName="RibbonRegion" 
 
-                    Background="#FFCCD4F8" Height="100">
-                <ContentControl prism:RegionManager.RegionName="RibbonRegion"></ContentControl>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Background="#FFD9E1EF" Height="100">
+                 DockPanel.Dock="Top" HorizontalAlignment="Stretch" 
+
+                 VerticalAlignment="Stretch" Name="ribbon1" Height="150"/>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" 
+
+                     Background="#FFD9E1EF" Height="100">
                 <ContentControl prism:RegionManager.RegionName="StatusRegion"></ContentControl>
             </StackPanel>
             <ScrollViewer>
-                <StackPanel Orientation="Vertical" DockPanel.Dock="Left" Background="#FF50576F" Width="200">
-                    <ContentControl prism:RegionManager.RegionName="TreeRegion"></ContentControl>
+                <StackPanel Orientation="Vertical" DockPanel.Dock="Left" 
+
+                          MinWidth="150" MaxWidth="200">
+                    <TreeView ItemContainerStyle="{StaticResource TreeItemStyleKey}"
+
+                         prism:RegionManager.RegionName="TreeRegion"
+
+                         Name="treeView1" HorizontalAlignment="Stretch"
+
+                         VerticalAlignment="Stretch" BorderThickness="0"
+
+                    />
                 </StackPanel>
             </ScrollViewer>
-            <StackPanel Orientation="Vertical" DockPanel.Dock="Right" Background="#FF677BA7" Width="100">
+            <StackPanel Orientation="Vertical" DockPanel.Dock="Right" 
+
+                      Background="#FF677BA7" Width="100">
                 <ContentControl prism:RegionManager.RegionName="AlertRegion"></ContentControl>
             </StackPanel>
             <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#FFC0DBF2">
-                    <ContentControl prism:RegionManager.RegionName="BlotterRegion" 
+                <StackPanel HorizontalAlignment="Stretch" 
 
-                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></ContentControl>
+                          VerticalAlignment="Stretch" Background="#FFC0DBF2">
+                    <TabControl ItemContainerStyle="{StaticResource TabItemStyleKey}"
+
+                        prism:RegionManager.RegionName="BlotterRegion" Name="tabControl1"
+
+                        HorizontalAlignment="Stretch" 
+
+                        VerticalAlignment="Stretch" Width="Auto">
+                    </TabControl>
                 </StackPanel>
             </ScrollViewer>
         </DockPanel>
