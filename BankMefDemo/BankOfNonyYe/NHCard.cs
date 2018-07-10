@@ -20,7 +20,7 @@ namespace BankOfNonyYe
 
         public string GetAccountInfo()
         {
-            return "Nony Ye Bank";
+            return "ZG Nony Ye Bank";
         }
 
         public void SaveMoney(double money)
