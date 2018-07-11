@@ -12,7 +12,10 @@ namespace CalculatorWithWcfDemo
     {
         public int Divide(int num1, int num2)
         {
-            return num1 / num2;
+            if (num2 != 0)
+                return num1 / num2;
+            else
+                return 1;
         }
 
         public string GetData(int value)
