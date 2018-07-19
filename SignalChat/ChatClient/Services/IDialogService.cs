@@ -10,5 +10,7 @@ namespace ChatClient.Services
     {
         void ShowNotification(string message, string caption = "");
         string OpenFile(string caption, string filter = @"All files (*.*)|*.*");
+
+        bool ShowConfirmationRequest(string message, string caption = "");
     }
 }

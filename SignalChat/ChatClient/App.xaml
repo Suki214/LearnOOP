@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:ChatClient"
              xmlns:enums="clr-namespace:ChatClient.Enums"
              xmlns:views="clr-namespace:ChatClient.Views"
+             xmlns:utils="clr-namespace:ChatClient.Utils"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary >
@@ -24,8 +25,10 @@
                 </Style.Triggers>
             </Style>
 
+            <utils:ViewModelLocator x:Key="VMLocator"/>
 
-                
+
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

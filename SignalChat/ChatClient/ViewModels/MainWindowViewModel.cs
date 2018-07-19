@@ -25,8 +25,9 @@ namespace ChatClient.ViewModels
             }
         }
 
-        public MainWindowViewModel()
+        public MainWindowViewModel(IChatService chatSvc, IDialogService diagSvc)
         {
+            dialogService = diagSvc;
         }
 
         private ICommand _SelectProfilePicCommand;
@@ -44,7 +45,7 @@ namespace ChatClient.ViewModels
 
         private void SelectProfilePic()
         {
-            var pic = dialogService.OpenFile("Slect image file", "Images (*.jpg;*.png)|*.jpg;*.png");
+            var pic = dialogService.OpenFile("Select image file", "Images (*.jpg;*.png)|*.jpg;*.png");
             if (!string.IsNullOrEmpty(pic))
             {
                 var img = Image.FromFile(pic);
