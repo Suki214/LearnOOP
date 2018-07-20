@@ -4,9 +4,35 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ChatClient.Views"
+             xmlns:mateiralDegin="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
+             d:DesignHeight="400" d:DesignWidth="650">
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="ParticipantsDataTemplate">
             
+        </DataTemplate>
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.RowSpan="2" BorderThickness="0,0,50,0" SnapsToDevicePixels="True"
+                BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <ListBox ItemsSource="{Binding Participants}"
+                     ItemTemplate="{DynamicResource ParticipantsDataTemplate}"
+                     ItemContainerStyle="{DynamicResource ParticipantsListBoxItemStyle}"
+                     SelectedItem="{Binding SelectedParticipant}"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+
+        </Border>
     </Grid>
 </UserControl>

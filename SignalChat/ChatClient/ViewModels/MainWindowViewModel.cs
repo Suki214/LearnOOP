@@ -4,16 +4,24 @@ using System.Windows.Input;
 using System.Drawing;
 using System;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+using ChatClient.Models;
+using System.IO;
+using System.Collections.ObjectModel;
+using ChatClient.Enums;
 
 namespace ChatClient.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
         private IDialogService dialogService;
+        private IChatService chatService;
         private const int MAX_IMAGE_WIDTH = 150;
         private const int MAX_IMAGE_HEIGHT = 150;
-        private string profilePic;
 
+
+        #region Property ProfilePic
+        private string profilePic;
         public string ProfilePic
         {
             get
@@ -23,11 +31,12 @@ namespace ChatClient.ViewModels
             set
             {
                 profilePic = value;
-                OnPropertyChanged("ProfilePic");
+                OnPropertyChanged();
             }
         }
+        #endregion
 
-        #region UserName
+        #region Property UserName
         private string userName;
         public string UserName
         {
@@ -40,7 +49,7 @@ namespace ChatClient.ViewModels
         }
         #endregion
 
-        #region IsConnected
+        #region Property IsConnected
         private bool isConnected;
         public bool IsConnected
         {
@@ -53,7 +62,7 @@ namespace ChatClient.ViewModels
         }
         #endregion
 
-        #region IsLogin
+        #region Property IsLogin
         private bool isLogin;
         public bool IsLogin
         {
@@ -65,6 +74,65 @@ namespace ChatClient.ViewModels
             }
         }
         #endregion
+
+        #region Property Participants
+        private ObservableCollection<Participant> participants;
+        public ObservableCollection<Participant> Participants
+        {
+            get { return participants; }
+            set
+            {
+                participants = value;
+                OnPropertyChanged();
+            }
+        }
+        #endregion
+
+        #region Property UserMode
+        private UserModes userMode;
+        public UserModes UserMode
+        {
+            get { return userMode; }
+            set
+            {
+                userMode = value;
+                OnPropertyChanged();
+            }
+        }
+        #endregion
+
+        #region Property SelectedParticipant
+        private Participant selectedParticipant;
+        public Participant SelectedParticipant
+        {
+            get { return selectedParticipant; }
+            set
+            {
+                selectedParticipant = value;
+                OnPropertyChanged();
+            }
+        }
+        #endregion
+
+        #region Property TextMessage
+        private string textMessage;
+        public string TextMessage
+        {
+            get { return textMessage; }
+            set
+            {
+                textMessage = value;
+                OnPropertyChanged();
+            }
+        }
+        #endregion
+
+        private byte [] Avator()
+        {
+            byte[] pic = null;
+            if (!string.IsNullOrEmpty(profilePic)) pic = File.ReadAllBytes(profilePic);
+            return pic;
+        }
 
         public MainWindowViewModel(IChatService chatSvc, IDialogService diagSvc)
         {
@@ -101,6 +169,32 @@ namespace ChatClient.ViewModels
         }
         #endregion
 
+        #region Connect Command
+        private ICommand connectCommand;
+        public ICommand ConnectCommand
+        {
+            get
+            {
+                if (connectCommand == null)
+                {
+                    connectCommand = new RelayCommandAsync(() => Connect());
+                }
+                return connectCommand;
+            }
+        }
+
+        private async Task<bool> Connect()
+        {
+            try
+            {
+                await chatService.ConnectAsync();
+                IsConnected = true;
+                return true;
+            }
+            catch (Exception) { return false; }
+        }
+        #endregion
+
         #region Login Command
         private ICommand loginCommand;
         public ICommand LoginCommand
@@ -110,8 +204,7 @@ namespace ChatClient.ViewModels
                 if (loginCommand == null)
                     loginCommand = new RelayCommandAsync(() => Login(), (o) => CanLogin());
                 return loginCommand;
-            }
-            #endregion
+            }            
         }
 
         private bool CanLogin()
@@ -121,7 +214,59 @@ namespace ChatClient.ViewModels
 
         private async Task<bool> Login()
         {
-            throw new NotImplementedException();
+            try
+            {
+                List<User> users = new List<User>();
+                users = await chatService.LoginAsync(userName, Avator());
+                if (userName != null)
+                {
+                    users.ForEach(u => Participants.Add(new Participant { Name = u.Name, Photo = u.Photo }));
+                    UserMode = UserModes.Chat;
+                    IsLogin = true;
+                    return true;
+                }
+                else
+                {
+                    dialogService.ShowNotification("Username is already in use");
+                    return false;
+                }
+            }
+            catch(Exception)
+            {
+                return false;
+            }
         }
+        #endregion
+
+        #region Logout Command
+        private ICommand logoutCommand;
+        public ICommand LogoutCommand
+        {
+            get
+            {
+                if (logoutCommand == null)
+                {
+                    logoutCommand = new RelayCommandAsync(()=>Logout(), (o)=>CanLogout());
+                }
+                return logoutCommand;
+            }
+        }
+
+        private async Task<bool> Logout()
+        {
+            try
+            {
+                await chatService.LogoutAsync();
+                UserMode = UserModes.Login;
+                return true;
+            }
+            catch (Exception) { return false; }
+        }
+
+        private bool CanLogout()
+        {
+            return IsConnected && IsLogin;
+        }
+        #endregion
     }
 }
