@@ -126,6 +126,7 @@
     </ApplicationDefinition>
     <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Commands\RelayCommandAsync.cs" />
+    <Compile Include="Data\SampleMainWindowViewModel.cs" />
     <Compile Include="Enums\MessageType.cs" />
     <Compile Include="Enums\UserModes.cs" />
     <Compile Include="Models\ChatMessage.cs" />
