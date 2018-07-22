@@ -5,7 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ChatClient.Views"
              xmlns:mateiralDegin="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
              xmlns:data="clr-namespace:ChatClient.Data"
+             xmlns:utils="clr-namespace:ChatClient.Utils"
              mc:Ignorable="d" 
              d:DataContext="{d:DesignInstance IsDesignTimeCreatable=True, Type={x:Type data:SampleMainWindowViewModel}}"
              d:DesignHeight="400" d:DesignWidth="650">  
@@ -57,6 +59,19 @@
             </Setter>
         </Style>
 
+        <Style x:Key="ImageButtonStyle" TargetType="Button">            
+        </Style>
+
+        <Style x:Key="SendButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryHueDarkBrush}"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <
+            </Setter>
+        </Style>
+
         <DataTemplate x:Key="ParticipantsDataTemplate">
             <Border>
                 <Grid>
@@ -91,6 +106,52 @@
                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                      ScrollViewer.VerticalScrollBarVisibility="Auto"/>
 
+        </Border>
+
+        <ItemsControl x:Name="MessagesItemCtrl" Grid.Column="1" Margin="0,5,0,0"
+                      ItemsSource="{Binding SelectedParticipant.Chatter}"
+                      ItemTemplate="{DynamicResource MessagesDataTemplate}"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <i:Interaction.Behaviors>
+                <utils:BringNewItemIntoViewBehavior/>
+            </i:Interaction.Behaviors>
+            <ItemsControl.Template >
+                <ControlTemplate TargetType="ItemsControl">
+                    <ScrollViewer>
+                        <ItemsPresenter/>
+                    </ScrollViewer>
+                </ControlTemplate>
+            </ItemsControl.Template>
+        </ItemsControl>
+
+        <Border Grid.Column="1" Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <Border Margin="10,10,0,10" MaxHeight="80" BorderThickness="1" BorderBrush="{DynamicResource MaterialDesignDivider}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="30"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="MessageTxtBox" BorderBrush="Transparent" AcceptsReturn="True" TextWrapping="Wrap"
+                                 VerticalScrollBarVisibility="Auto"
+                                 Text="{Binding TextMessage,UpdateSourceTrigger=PropertyChanged}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="KeyUp">
+                                    <i:InvokeCommandAction Command="{Binding TypingCommand}">                                        
+                                    </i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBox>
+                        <Button Grid.Column="1" Margin="4" Style="{DynamicResource ImageButtonStyle}"
+                                Command="{Binding SendImageMessageCommand}"></Button>
+                    </Grid>
+                </Border>
+                <Button Grid.Column="1" Style="{DynamicResource SendButtonStyle}" Command="{Binding SendTextMessageCommand}"></Button>
+            </Grid>
         </Border>
     </Grid>
 </UserControl>
