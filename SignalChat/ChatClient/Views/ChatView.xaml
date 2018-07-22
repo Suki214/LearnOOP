@@ -68,7 +68,9 @@
             <Setter Property="Foreground" Value="{DynamicResource PrimaryHueDarkBrush}"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Template">
-                <
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button"></ControlTemplate>
+                </Setter.Value>
             </Setter>
         </Style>
 
