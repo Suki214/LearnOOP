@@ -1,14 +1,14 @@
 ﻿using ChatClient.Commands;
-using ChatClient.Services;
-using System.Windows.Input;
-using System.Drawing;
-using System;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using ChatClient.Models;
-using System.IO;
-using System.Collections.ObjectModel;
 using ChatClient.Enums;
+using ChatClient.Models;
+using ChatClient.Services;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Drawing;
+using System.IO;
+using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace ChatClient.ViewModels
 {
