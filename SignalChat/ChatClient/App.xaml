@@ -26,6 +26,7 @@
             </Style>
 
             <utils:ViewModelLocator x:Key="VMLocator"/>
+            <utils:ByteBmpSrcConverter x:Key="ByteBmpSrcConverter"/>
 
 
 

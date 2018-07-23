@@ -10,7 +10,7 @@ using System.Windows.Interactivity;
 
 namespace ChatClient.Utils
 {
-    public class BringNewItemIntoViewBehavior:Behavior<ItemsControl>
+    public class BringNewItemIntoViewBehavior : Behavior<ItemsControl>
     {
         private INotifyCollectionChanged notifier;
         protected override void OnAttached()
@@ -18,7 +18,6 @@ namespace ChatClient.Utils
             base.OnAttached();
             notifier = AssociatedObject.Items as INotifyCollectionChanged;
             notifier.CollectionChanged += ItemsControl_CollectionChanged;
-
         }
 
         private void ItemsControl_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
@@ -36,6 +35,6 @@ namespace ChatClient.Utils
         {
             base.OnDetaching();
             notifier.CollectionChanged -= ItemsControl_CollectionChanged;
-        }        
+        }
     }
 }
