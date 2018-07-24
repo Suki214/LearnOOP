@@ -2,11 +2,15 @@
 using ChatClient.Enums;
 using ChatClient.Models;
 using ChatClient.Services;
+using Microsoft.AspNet.SignalR.Client.Hubs;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Reactive.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
@@ -18,7 +22,6 @@ namespace ChatClient.ViewModels
         private IChatService chatService;
         private const int MAX_IMAGE_WIDTH = 150;
         private const int MAX_IMAGE_HEIGHT = 150;
-
 
         #region Property ProfilePic
         private string profilePic;
@@ -266,6 +269,218 @@ namespace ChatClient.ViewModels
         private bool CanLogout()
         {
             return IsConnected && IsLogin;
+        }
+        #endregion
+
+        #region Typing Command
+        private ICommand typingCommand;
+        public ICommand TypingCommand
+        {
+            get
+            {
+                return typingCommand?? (typingCommand = new RelayCommandAsync(() => Typing(), (o) => CanUseTypingCommand()));
+            }
+        }
+
+        private bool CanUseTypingCommand()
+        {
+            return (SelectedParticipant != null && SelectedParticipant.IsLoggedIn);
+        }
+
+        private async Task<bool> Typing()
+        {
+            try
+            {
+                await chatService.TypingAsync(SelectedParticipant.Name);
+                return true;
+            }
+            catch (Exception) { return false; }
+        }
+        #endregion
+
+        #region Send Text Message Command
+        private ICommand sendTextMessageCommand;
+        public ICommand SendTextMessageCommand
+        {
+            get
+            {
+                return sendTextMessageCommand ?? (sendTextMessageCommand = new RelayCommandAsync(() => SendTextMessage(), (o) => CanSendTextMessage()));
+            }
+        }
+
+        private bool CanSendTextMessage()
+        {
+            return ( (!string.IsNullOrEmpty(textMessage) && selectedParticipant != null && selectedParticipant.IsLoggedIn));
+        }
+
+        private async Task<bool> SendTextMessage()
+        {
+            try
+            {
+                var receipt = selectedParticipant.Name;
+                await chatService.SendUnicastTextMessageAsync(receipt, textMessage);
+                return true;
+            }
+            catch (Exception) { return false; }
+            finally
+            {
+                ChatMessage msg = new ChatMessage { Author = userName, Message = textMessage, Time = DateTime.Now, IsOriginNative = true };
+                SelectedParticipant.Chatter.Add(msg);
+                textMessage = string.Empty;
+            }
+        }
+        #endregion
+
+        #region Send Picture Message Command
+        private ICommand sendPictureMessageCommand;
+        public ICommand SendPictureMessageCommand
+        {
+            get
+            {
+                return sendPictureMessageCommand ?? (sendPictureMessageCommand = new RelayCommandAsync(() => SendPictureMessage(), (o) => CanSendPictureMessage()));
+            }
+        }
+
+        private bool CanSendPictureMessage()
+        {
+            return (selectedParticipant != null && selectedParticipant.IsLoggedIn && IsConnected);
+        }
+
+        private async Task<bool> SendPictureMessage()
+        {
+            var pic = dialogService.OpenFile("Select image file", "Images(*.jpg;*.png)|*.jpg;*.png");
+            if (string.IsNullOrEmpty(pic)) return false;
+
+            var img = await Task.Run(() => File.ReadAllBytes(pic));
+
+            try
+            {
+                var receipt = selectedParticipant.Name;
+                await chatService.SendUnicastImageAsync(receipt, img);
+                return true;
+            }
+            catch (Exception) { return false; }
+            finally
+            {
+                ChatMessage msg = new ChatMessage { Author = userName, IsOriginNative = true, Picture = pic, Time = DateTime.Now };
+                SelectedParticipant.Chatter.Add(msg);
+            }
+        }
+        #endregion
+
+        #region Open Image Command
+        private ICommand openImageCommand;
+        public ICommand OpenImageCommand
+        {
+            get
+            {
+                return openImageCommand ?? (openImageCommand = new RelayCommand<ChatMessage>((m) => OpenImage(m)));
+            }
+        }
+
+        private void OpenImage(ChatMessage m)
+        {
+            var pic = m.Picture;
+            if (string.IsNullOrEmpty(pic) || !File.Exists(pic)) return;
+            Process.Start(pic);
+        }
+        #endregion
+
+        #region Event Handler
+        private async void Reconnected()
+        {
+            var pic = Avator();
+            if (!string.IsNullOrEmpty(userName)) await chatService.LoginAsync(userName, pic);
+            IsConnected = true;
+            IsLogin = true;
+        }
+
+        private async void Disconnected()
+        {
+            var connectTask = chatService.ConnectAsync();
+            await connectTask.ContinueWith(t=> {
+                if (!t.IsFaulted)
+                {
+                    IsConnected = true;
+                    chatService.LoginAsync(userName, Avator()).Wait();
+                    IsLogin = true;
+                }
+            });
+        }
+
+        private void Reconnecting()
+        {
+            IsConnected = false;
+            IsLogin = false;
+        }
+
+        private void ParticipantLogin(User u)
+        {
+            var ptp = Participants.FirstOrDefault(p => string.Equals(p.Name, u.Name));
+            if(isLogin&& ptp == null)
+            {
+                Task.Run(() => Participants.Add(new Participant { Name = u.Name, Photo = u.Photo })).Wait();
+            }
+        }
+
+        private void ParticipantTyping(string name)
+        {
+            var person = Participants.Where((p) => string.Equals(p.Name, name)).FirstOrDefault();
+            if(person!=null && person.IsTyping)
+            {
+                person.IsTyping = true;
+                Observable.Timer(TimeSpan.FromMilliseconds(1500)).Subscribe(t=>person.IsTyping = false);
+            }
+        }
+
+        private void ParticipantDisconnection(string name)
+        {
+            var person = Participants.Where((p) => string.Equals(p.Name, name)).FirstOrDefault();
+            if (person != null) person.IsLoggedIn = false;
+        }
+
+        private void ParticipantReconnection(string name)
+        {
+            var person = Participants.Where((p) => string.Equals(p.Name, name)).FirstOrDefault();
+            if (person != null) person.IsLoggedIn = true;
+        }
+
+        private void NewTextMessage(string name, string msg, MessageType mt)
+        {
+            if (mt == MessageType.Unicast)
+            {
+                ChatMessage cm = new ChatMessage { Author = name, Message = msg, Time=DateTime.Now };
+                var sender = Participants.Where((p) => string.Equals(p.Name, name)).FirstOrDefault();
+                Task.Run(() => sender.Chatter.Add(cm)).Wait();
+
+                if(!(SelectedParticipant!=null && sender.Name.Equals(SelectedParticipant.Name)))
+                {
+                    Task.Run(() => sender.HasSendMessage = true).Wait();
+                }
+            }
+        }
+
+        private void NewImageMessage(string name, byte[] pic, MessageType mt)
+        {
+            var imgsDirectory = Path.Combine(Environment.CurrentDirectory, "Image Messages");
+            if (!Directory.Exists(imgsDirectory)) Directory.CreateDirectory(imgsDirectory);
+            var imgsCount = Directory.EnumerateFiles(imgsDirectory).Count() + 1;
+            var imgPath = Path.Combine(imgsDirectory, $"IMG_{imgsCount}.jpg");
+
+            ImageConverter converter = new ImageConverter();
+            using (Image img = (Image)converter.ConvertFrom(pic))
+            {
+                img.Save(imgPath);
+            }
+
+            ChatMessage cm = new ChatMessage { Author = name, Picture = imgPath, Time = DateTime.Now };
+            var sender = Participants.Where((p) => string.Equals(p.Name, name)).FirstOrDefault();
+            Task.Run(() => sender.Chatter.Add(cm)).Wait();
+
+            if(!(SelectedParticipant!=null&& sender.Name.Equals(SelectedParticipant.Name)))
+            {
+                Task.Run(() => sender.HasSendMessage = true).Wait();
+            }
         }
         #endregion
     }
