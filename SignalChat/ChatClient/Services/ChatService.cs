@@ -31,10 +31,10 @@ namespace ChatClient.Services
         {
             connection = new HubConnection(url);
             hubProxy = connection.CreateHubProxy("ChatHub");
-            hubProxy.On<User>("ParticipantLoggedIn", (u) => ParticipantLoggedIn?.Invoke(u));
-            hubProxy.On<string>("ParticipantLoggedOut",(m)=> ParticipantLoggedOut?.Invoke(m));
-            hubProxy.On<string>("ParticipantDisconnected",(m)=> ParticipantDisconnected?.Invoke(m));
-            hubProxy.On<string>("ParticipantReconnected",(m)=> ParticipantReconnected?.Invoke(m));
+            hubProxy.On<User>("ParticipantLogIn", (u) => ParticipantLoggedIn?.Invoke(u));
+            hubProxy.On<string>("ParticipantLogOut",(m)=> ParticipantLoggedOut?.Invoke(m));
+            hubProxy.On<string>("ParticipantDisconnection",(m)=> ParticipantDisconnected?.Invoke(m));
+            hubProxy.On<string>("ParticipantReconnection",(m)=> ParticipantReconnected?.Invoke(m));
             hubProxy.On<string, string>("BroadcastTextMessage",(m,n)=>NewTextMessage?.Invoke(m,n,MessageType.Broadcast));
             hubProxy.On<string, byte[]>("BroadcastPictureMessage",(m,n)=>NewImageMessage?.Invoke(m,n,MessageType.Broadcast));
             hubProxy.On<string, string>("UnicastTextMessage", (m, n) => NewTextMessage?.Invoke(m, n, MessageType.Unicast));

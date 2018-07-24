@@ -140,6 +140,18 @@ namespace ChatClient.ViewModels
         public MainWindowViewModel(IChatService chatSvc, IDialogService diagSvc)
         {
             dialogService = diagSvc;
+            chatService = chatSvc;
+
+            chatSvc.NewTextMessage += NewTextMessage;
+            chatSvc.NewImageMessage += NewImageMessage;
+            chatSvc.ParticipantLoggedIn += ParticipantLogin;
+            chatSvc.ParticipantLoggedOut += ParticipantDisconnection;
+            chatSvc.ParticipantDisconnected += ParticipantDisconnection;
+            chatSvc.ParticipantReconnected += ParticipantReconnection;
+            chatSvc.PaticipantTyping += ParticipantTyping;
+            chatSvc.ConnectionReconnecting += Reconnecting;
+            chatSvc.ConnectionReconnected += Reconnected;
+            chatSvc.ConnectionClosed += Disconnected;
         }
 
         #region Select Profile Picture Command
