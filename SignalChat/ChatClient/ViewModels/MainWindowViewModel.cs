@@ -65,14 +65,14 @@ namespace ChatClient.ViewModels
         }
         #endregion
 
-        #region Property IsLogin
-        private bool isLogin;
-        public bool IsLogin
+        #region Property IsLoggedin
+        private bool isLoggedin;
+        public bool IsLoggedin
         {
-            get { return isLogin; }
+            get { return isLoggedin; }
             set
             {
-                isLogin = value;
+                isLoggedin = value;
                 OnPropertyChanged();
             }
         }
@@ -237,7 +237,7 @@ namespace ChatClient.ViewModels
                 {
                     users.ForEach(u => Participants.Add(new Participant { Name = u.Name, Photo = u.Photo }));
                     UserMode = UserModes.Chat;
-                    IsLogin = true;
+                    IsLoggedin = true;
                     return true;
                 }
                 else
@@ -280,7 +280,7 @@ namespace ChatClient.ViewModels
 
         private bool CanLogout()
         {
-            return IsConnected && IsLogin;
+            return IsConnected && IsLoggedin;
         }
         #endregion
 
@@ -404,7 +404,7 @@ namespace ChatClient.ViewModels
             var pic = Avator();
             if (!string.IsNullOrEmpty(userName)) await chatService.LoginAsync(userName, pic);
             IsConnected = true;
-            IsLogin = true;
+            IsLoggedin = true;
         }
 
         private async void Disconnected()
@@ -415,7 +415,7 @@ namespace ChatClient.ViewModels
                 {
                     IsConnected = true;
                     chatService.LoginAsync(userName, Avator()).Wait();
-                    IsLogin = true;
+                    IsLoggedin = true;
                 }
             });
         }
@@ -423,15 +423,15 @@ namespace ChatClient.ViewModels
         private void Reconnecting()
         {
             IsConnected = false;
-            IsLogin = false;
+            IsLoggedin = false;
         }
 
         private void ParticipantLogin(User u)
         {
             var ptp = Participants.FirstOrDefault(p => string.Equals(p.Name, u.Name));
-            if(isLogin&& ptp == null)
+            if(IsLoggedin&& ptp == null)
             {
-                Task.Run(() => Participants.Add(new Participant { Name = u.Name, Photo = u.Photo })).Wait();
+                Task.Run(() => Participants.Add(new Participant { Name = u.Name, Photo = u.Photo }));
             }
         }
 
