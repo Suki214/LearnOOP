@@ -29,7 +29,7 @@ namespace ChatClient.Commands
         public bool CanExecute(object parameter)
         {
             if (_canExecute == null && !isExecuting) return true;
-            return (_canExecute(parameter) && !isExecuting);
+            return ((_canExecute(parameter) && !isExecuting));
         }
 
         public async void Execute(object parameter)

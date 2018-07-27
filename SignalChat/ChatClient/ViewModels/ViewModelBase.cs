@@ -14,7 +14,10 @@ namespace ChatClient.ViewModels
 
         public void OnPropertyChanged([CallerMemberName()]string property=null)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
+            if (property != null)
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));
+            }
         }
     }
 }
