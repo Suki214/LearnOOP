@@ -8,10 +8,12 @@ namespace MemontoPatternDemo
 {
     public class Menento
     {
-        public string State { get; set; }
-        public Menento(string state)
+        public string PowerState { get; set; }
+        public string DefenseState { get; set; }
+        public Menento(string powerState, string defenseState)
         {
-            State = state;
+            PowerState = powerState;
+            DefenseState = defenseState;
         }
     }
 }

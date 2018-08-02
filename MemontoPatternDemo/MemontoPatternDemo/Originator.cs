@@ -8,16 +8,18 @@ namespace MemontoPatternDemo
 {
     public class Originator
     {
-        public string State { get; set; }
+        public string PowerState { get; set; }
+        public string DefenseState { get; set; }
 
         public Menento CreateMenento()
         {
-            return new Menento(State);
+            return new Menento(PowerState,DefenseState);
         }
 
         public void SetMenento(Menento menento)
         {
-            State = menento.State;
+            PowerState = menento.PowerState;
+            DefenseState = menento.DefenseState;
         }
     }
 }
