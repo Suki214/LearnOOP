@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Command.cs" />
     <Compile Include="ConcreteCommand.cs" />
+    <Compile Include="DemoToImplementIdispose.cs" />
     <Compile Include="Invoke.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
