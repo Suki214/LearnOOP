@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPatternDemo", "CommandPatternDemo\CommandPatternDemo.csproj", "{20FDEB9E-63C3-45D5-9F44-FF42A7FCBDD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithCommandPattern", "CalculatorWithCommandPattern\CalculatorWithCommandPattern.csproj", "{91D3A925-2CC3-4B60-990F-9A331EEB66BD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsWithCommandPattern", "GraphicsWithCommandPattern\GraphicsWithCommandPattern.csproj", "{7C0BED76-D8BB-43DC-B57E-286892B17D9A}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{20FDEB9E-63C3-45D5-9F44-FF42A7FCBDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20FDEB9E-63C3-45D5-9F44-FF42A7FCBDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20FDEB9E-63C3-45D5-9F44-FF42A7FCBDD2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91D3A925-2CC3-4B60-990F-9A331EEB66BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91D3A925-2CC3-4B60-990F-9A331EEB66BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91D3A925-2CC3-4B60-990F-9A331EEB66BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91D3A925-2CC3-4B60-990F-9A331EEB66BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C0BED76-D8BB-43DC-B57E-286892B17D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C0BED76-D8BB-43DC-B57E-286892B17D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C0BED76-D8BB-43DC-B57E-286892B17D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
