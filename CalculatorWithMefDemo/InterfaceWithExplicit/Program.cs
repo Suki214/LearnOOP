@@ -12,6 +12,7 @@ namespace InterfaceWithExplicit
         {
             MyClass myClass = new MyClass();
             myClass.DoSomething();
+            myClass.DoElse();
             IMyInterface myInterface = myClass;
             myInterface.DoElse();//this must be called with interface
             myInterface.DoSomething();

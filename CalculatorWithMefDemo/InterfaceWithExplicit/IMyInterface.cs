@@ -19,6 +19,11 @@ namespace InterfaceWithExplicit
             Console.WriteLine("DoSomethingElse");
         }
 
+        public void DoElse()
+        {
+            Console.WriteLine("DoSomethingElse in class");
+        }
+
         public void DoSomething()
         {
             Console.WriteLine("DoSomething");
