@@ -8,7 +8,7 @@ namespace InterfaceCallback
 {
     public class Controller
     {
-        public IBack callbackObj = null;
+        public IBack callbackObj = null;//使用IBack作为接口的好处就是，所有实现了IBack的callback object都可以实现回调，而不用修改controller类
         public Controller(IBack back)
         {
             callbackObj = back;
