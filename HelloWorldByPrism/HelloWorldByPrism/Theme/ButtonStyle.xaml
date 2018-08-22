@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:HelloWorldByPrism.Theme">
+    <Style x:Key="NormalButton" TargetType="Button">
+        <Setter Property="Background" Value="Chocolate"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+</ResourceDictionary>

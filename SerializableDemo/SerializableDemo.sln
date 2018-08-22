@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDemo", "SerializableDemo\SerializableDemo.csproj", "{8C7ED276-78E1-47D2-945F-4F92D56A210E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoolDemo\ThreadPoolDemo.csproj", "{157C2AE3-C1DF-46B9-9EB8-7DF70A472394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDemoTests", "SerializableDemoTests\SerializableDemoTests.csproj", "{D0D85F41-2776-4D80-A640-91A6EA3114DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8C7ED276-78E1-47D2-945F-4F92D56A210E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7ED276-78E1-47D2-945F-4F92D56A210E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7ED276-78E1-47D2-945F-4F92D56A210E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157C2AE3-C1DF-46B9-9EB8-7DF70A472394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157C2AE3-C1DF-46B9-9EB8-7DF70A472394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157C2AE3-C1DF-46B9-9EB8-7DF70A472394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157C2AE3-C1DF-46B9-9EB8-7DF70A472394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

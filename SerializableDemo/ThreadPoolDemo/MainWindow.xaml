@@ -1,12 +1,12 @@
-﻿<Window x:Class="HelloWorldByPrism.MainWindow"
+﻿<Window x:Class="ThreadPoolDemo.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:HelloWorldByPrism"
+        xmlns:local="clr-namespace:ThreadPoolDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Style="{StaticResource NormalButton}" Content="Click"/>
+        <Button Click="Button_Click" Content="Click Here to Cal" FontSize="25"/>
     </Grid>
 </Window>
