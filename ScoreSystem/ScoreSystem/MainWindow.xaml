@@ -14,11 +14,15 @@
             <RowDefinition Height="40"/>
             <RowDefinition/>
             <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
         <TextBox Name="StudentName" Text="{Binding StudentName, UpdateSourceTrigger=PropertyChanged}" Width="100" HorizontalAlignment="Left" />
         <Button Name="FilterButton" Content="Filter" HorizontalAlignment="Center" Width="100" Command="{Binding FilterAction}"/>
         <DataGrid Grid.Row="1" ItemsSource="{Binding Scores}" IsEnabled="False"/>
-        <Button Name="ClearButton" Content=" Clear" Grid.Row="2" Width="100" HorizontalAlignment="Left" Command="{Binding ClearAction}"/>
-        <Button Name="ResetButton" Content=" Reset" Grid.Row="2" Width="100" HorizontalAlignment="Right" Command="{Binding ResetAction}"/>
+        <ComboBox Grid.Row="2" ItemsSource="{Binding Scores}" SelectedItem="{Binding Scores}"/>
+        <ComboBox Grid.Row="3" ItemsSource="{Binding Scores}" SelectedValue="{Binding Scores}" SelectedValuePath="ID" DisplayMemberPath="StudentName"/>
+        <Button Name="ClearButton" Content=" Clear" Grid.Row="4" Width="100" HorizontalAlignment="Left" Command="{Binding ClearAction}"/>
+        <Button Name="ResetButton" Content=" Reset" Grid.Row="4" Width="100" HorizontalAlignment="Right" Command="{Binding ResetAction}"/>
     </Grid>
 </Window>

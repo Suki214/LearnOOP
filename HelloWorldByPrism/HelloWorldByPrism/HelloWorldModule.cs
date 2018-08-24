@@ -11,6 +11,7 @@ namespace HelloWorldByPrism
 {
     public class HelloWorldModule : IModule
     {
+        
         private readonly IRegionManager regionManager;
         public IUnityContainer container { get; set; }
         public HelloWorldModule(IRegionManager regionManager, IUnityContainer container)

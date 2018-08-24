@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace HelloWorldByPrism
+namespace MoqDemo
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,8 +23,6 @@ namespace HelloWorldByPrism
         public MainWindow()
         {
             InitializeComponent();
-            Button button = new Button();
-            SetValue(Button.StyleProperty, Application.Current.Resources["资源名称"]);
         }
     }
 }

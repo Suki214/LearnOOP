@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableDemoTests", "SerializableDemoTests\SerializableDemoTests.csproj", "{D0D85F41-2776-4D80-A640-91A6EA3114DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqDemo", "MoqDemo\MoqDemo.csproj", "{F1B6D55E-02BE-4DF2-B152-FCAE96EA293D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqDemoTests1", "MoqDemoTests1\MoqDemoTests1.csproj", "{47C4DB22-33E3-4ACA-AF84-48F16220B240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D85F41-2776-4D80-A640-91A6EA3114DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B6D55E-02BE-4DF2-B152-FCAE96EA293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B6D55E-02BE-4DF2-B152-FCAE96EA293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B6D55E-02BE-4DF2-B152-FCAE96EA293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B6D55E-02BE-4DF2-B152-FCAE96EA293D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C4DB22-33E3-4ACA-AF84-48F16220B240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C4DB22-33E3-4ACA-AF84-48F16220B240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C4DB22-33E3-4ACA-AF84-48F16220B240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C4DB22-33E3-4ACA-AF84-48F16220B240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,5 +10,6 @@ namespace ScoreSystem
     {
         public string StudentName { get; set; }
         public int MathScore { get; set; }
+        public string ID { get; set; }
     }
 }
