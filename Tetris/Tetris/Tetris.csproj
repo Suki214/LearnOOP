@@ -54,6 +54,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Box.cs" />
+    <Compile Include="Container.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="TetrisViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

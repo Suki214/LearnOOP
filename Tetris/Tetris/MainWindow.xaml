@@ -5,8 +5,113 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tetris"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Tetris Game" Height="750" Width="800">
+    <Window.DataContext>
+        <local:TetrisViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style x:Key="NormalButton" TargetType="Button">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Background" Value="AliceBlue"/>
+            <Setter Property="Margin" Value="5,15,15,5"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="400*"/>
+            <RowDefinition Height="30*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" HorizontalAlignment="Right" Grid.Row="0" FontSize="25"  Content="Level:" Margin="10,12,12,12" ></Label>
+                <ComboBox Grid.Column="1" Grid.Row="0"  Margin="10,12,12,12" FontSize="25">
+
+                </ComboBox>
+                <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" Content="Score:" Margin="10,12,12,12" FontSize="25"></Label>
+                <Label Grid.Column="1" Grid.Row="1"  Margin="10,12,12,12" FontSize="25" ></Label>
+            </Grid>
+            <Grid Grid.Row="1" Background="LightCyan"  Margin="10,12,12,12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button Content="Start" Name="StartButton" Style="{StaticResource NormalButton}" Command="{Binding StartCommand}"></Button>
+                <Button Content="Pause" Name="PauseButton" Grid.Row="1" Style="{StaticResource NormalButton}" Command="{Binding PauseCommand}"></Button>
+                <Button Content="Terminate" Name="TerminateButton" Grid.Row="2" Style="{StaticResource NormalButton}" Command="{Binding TerminateCommand}"></Button>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
