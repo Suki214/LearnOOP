@@ -55,6 +55,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Box.cs" />
+    <Compile Include="BoxFactory.cs" />
+    <Compile Include="Box_I.cs" />
+    <Compile Include="Box_J.cs" />
+    <Compile Include="Box_L.cs" />
+    <Compile Include="Box_O.cs" />
+    <Compile Include="Box_S.cs" />
+    <Compile Include="Box_T.cs" />
+    <Compile Include="Box_Z.cs" />
     <Compile Include="Container.cs" />
     <Compile Include="RelayCommand.cs" />
     <Compile Include="Result.cs" />

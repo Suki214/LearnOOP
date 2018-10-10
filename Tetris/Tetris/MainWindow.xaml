@@ -16,18 +16,18 @@
             <Setter Property="Margin" Value="5,15,15,5"/>
         </Style>
     </Window.Resources>
-    <Grid Background="Azure">
+    <Grid Background="Azure" >
         <Grid.RowDefinitions>
             <RowDefinition Height="20*"/>
             <RowDefinition Height="400*"/>
             <RowDefinition Height="30*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="20*"/>
             <ColumnDefinition Width="200*"/>
             <ColumnDefinition Width="100*"/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="1" Grid.Row="1">
+        <Grid Grid.Column="1" Grid.Row="1" Background="AntiqueWhite" Margin="0,0,10,0">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -108,9 +108,9 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Button Content="Start" Name="StartButton" Style="{StaticResource NormalButton}" Command="{Binding StartCommand}"></Button>
-                <Button Content="Pause" Name="PauseButton" Grid.Row="1" Style="{StaticResource NormalButton}" Command="{Binding PauseCommand}"></Button>
-                <Button Content="Terminate" Name="TerminateButton" Grid.Row="2" Style="{StaticResource NormalButton}" Command="{Binding TerminateCommand}"></Button>
+                <Button Content="{Binding StartButtonLabel }" Name="StartButton" Style="{StaticResource NormalButton}" Command="{Binding StartCommand}"></Button>
+                <Button Content="{Binding StopButtonLabel}" Name="StopButton" Grid.Row="1" Style="{StaticResource NormalButton}" Command="{Binding StopCommand}"></Button>
+                <Button Content="{Binding TerminateButtonLabel}" Name="TerminateButton" Grid.Row="2" Style="{StaticResource NormalButton}" Command="{Binding TerminateCommand}"></Button>
             </Grid>
         </Grid>
     </Grid>

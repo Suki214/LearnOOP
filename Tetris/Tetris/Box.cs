@@ -31,6 +31,18 @@ namespace Tetris
             dispatcherTimer.Interval = TimeSpan.FromMilliseconds(450 - Result.GetInstance().Level * 50);
         }
 
+        public void Pause()
+        {
+            dispatcherTimer.IsEnabled = false;
+            IsPause = true;
+        }
+
+        public void UnPause()
+        {
+            dispatcherTimer.IsEnabled = true;
+            IsPause = false;
+        }
+
         private void Timer_Tick(object sender, EventArgs e)
         {
             if (!MoveDown())
@@ -93,5 +105,54 @@ namespace Tetris
             }
             return false;
         }
+
+        public abstract void Ready();
+        public abstract void ShowWaiting(ref Grid WaitingGrid);
+
+        protected Status ActivityStatus;
+
+        public bool ChangeShape()
+        {
+            if (IsPause) return false;
+
+            return true;
+        }
+    }
+
+    /// <summary>
+    /// 定义一个方格坐标点
+    /// </summary>
+    class Position
+    {
+        public int x { get; set; }
+        public int y { get; set; }
+
+        public Position(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+        public Position() { }
+    }
+
+    /// <summary>
+    /// 定义方块形状循环链表，标记变形状态
+    /// </summary>
+    class Status
+    {
+        /// <summary>
+        /// 方格[四个方块]下一次变形将要去的相对位置
+        /// </summary>
+        public List<Position> nextRelativePosition = new List<Position>(4);
+
+        /// <summary>
+        /// 是否需要检查方格[每个方块]到这个位置的可行性
+        /// </summary>
+        public List<bool> NeedCheck = new List<bool>(4);
+
+        /// <summary>
+        /// 指向下一状态
+        /// </summary>
+        public Status Next;
     }
 }
