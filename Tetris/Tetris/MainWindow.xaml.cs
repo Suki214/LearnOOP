@@ -23,6 +23,9 @@ namespace Tetris
         public MainWindow()
         {
             InitializeComponent();
+            Container.grid = Grid1;
+            Container.waitingGrid = Grid2;
+           // LSGrid.DataContext = Result.GetInstance();
         }
     }
 }

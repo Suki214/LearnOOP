@@ -31,16 +31,38 @@ namespace Tetris
             dispatcherTimer.Interval = TimeSpan.FromMilliseconds(450 - Result.GetInstance().Level * 50);
         }
 
+        public void AutoDown()
+        {
+            dispatcherTimer.Start();
+        }
+
         public void Pause()
         {
             dispatcherTimer.IsEnabled = false;
             IsPause = true;
         }
 
+        public bool IsOverlapping()
+        {
+            foreach(var r in rectangles)
+            {
+                int x = Convert.ToInt32((r as Rectangle).GetValue(Grid.ColumnProperty));
+                int y = Convert.ToInt32((r as Rectangle).GetValue(Grid.RowProperty));
+                if (Existence(x, y))
+                    return true;
+            }
+            return false;
+        }
+
         public void UnPause()
         {
             dispatcherTimer.IsEnabled = true;
             IsPause = false;
+        }
+
+        public void StopAction()
+        {
+            dispatcherTimer.Stop();
         }
 
         private void Timer_Tick(object sender, EventArgs e)

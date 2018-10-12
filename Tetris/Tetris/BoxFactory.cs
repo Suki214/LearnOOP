@@ -22,7 +22,7 @@ namespace Tetris
                 case 4: return new Box_I(ref grid);
                 //case 5: return new Box_O(ref grid);
                 //case 6: return new Box_T(ref grid);
-                default:return null;
+                default:return new Box_I(ref grid); ;
             }
         }
     }

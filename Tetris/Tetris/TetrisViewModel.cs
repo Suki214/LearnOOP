@@ -74,9 +74,13 @@ namespace Tetris
                 Container.Pause();
                 if(MessageBox.Show("当前游戏正在进行中，您是否重新开始新游戏？","",MessageBoxButton.YesNo)==MessageBoxResult.Yes)
                 {
-                    //Container.Stop();
-                    //PauseButton.Content = "Pause";
-
+                    Container.Stop();
+                    StopButtonLabel = "Pause";
+                    Container.NewBoxReadyToDown();
+                }
+                else
+                {
+                    if (StopButtonLabel == "Pause") Container.UnPause();
                 }
             }
         }

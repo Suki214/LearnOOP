@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Tetris
 {
@@ -8,6 +9,7 @@ namespace Tetris
         public Box_I(ref Grid grid)
         {
             this.grid = grid;
+            for (int i = 0; i < 4; i++) rectangles[i].Fill = new SolidColorBrush(Colors.Red);
         }
 
         public override void Ready()
