@@ -42,6 +42,26 @@ namespace Tetris
             IsPause = true;
         }
 
+        public bool MoveLeft()
+        {
+            return Move(-1, 0);
+        }
+
+        public bool MoveRight()
+        {
+            return Move(1, 0);
+        }
+
+        public bool FastDown()
+        {
+            return true;
+        }
+
+        public bool MoveDown()
+        {
+            return Move(0, 1);
+        }
+
         public bool IsOverlapping()
         {
             foreach(var r in rectangles)
@@ -75,11 +95,6 @@ namespace Tetris
         }
 
         public event EventHandler OnButtom;
-
-        private bool MoveDown()
-        {
-            return Move(0, 1);
-        }
 
         protected bool Move(int _x, int _y)
         {

@@ -17,14 +17,32 @@ namespace Tetris
             ShowAt(new Position(5, 0), ref grid);
 
             ActivityStatus = new Status();
+            ActivityStatus.nextRelativePosition.Add(new Position(-1, 1));
+            ActivityStatus.nextRelativePosition.Add(new Position(0, 0));
+            ActivityStatus.nextRelativePosition.Add(new Position(1, -1));
+            ActivityStatus.nextRelativePosition.Add(new Position(2, -2));
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.NeedCheck.Add(false);
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.Next = new Status();
+
+            ActivityStatus.nextRelativePosition.Add(new Position(1, -1));
+            ActivityStatus.nextRelativePosition.Add(new Position(0, 0));
+            ActivityStatus.nextRelativePosition.Add(new Position(-1, 1));
+            ActivityStatus.nextRelativePosition.Add(new Position(-2, 2));
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.NeedCheck.Add(false);
+            ActivityStatus.NeedCheck.Add(true);
+            ActivityStatus.Next = ActivityStatus;
+
         }
 
         public override void ShowWaiting(ref Grid WaitingGrid)
         {
             ShowAt(new Position(2, 0), ref WaitingGrid);
         }
-
-
 
         private void ShowAt(Position p, ref Grid grid)
         {

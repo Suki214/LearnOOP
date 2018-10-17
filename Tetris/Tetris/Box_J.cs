@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace Tetris
 {
@@ -7,6 +8,7 @@ namespace Tetris
         public Box_J(ref Grid grid)
         {
             this.grid = grid;
+            for (int i = 0; i < 4; i++) rectangles[i].Fill = new SolidColorBrush(Colors.Blue);
         }
 
         public override void Ready()
@@ -16,7 +18,7 @@ namespace Tetris
 
         public override void ShowWaiting(ref Grid WaitingGrid)
         {
-            throw new System.NotImplementedException();
+            //ShowAt
         }
     }
 }

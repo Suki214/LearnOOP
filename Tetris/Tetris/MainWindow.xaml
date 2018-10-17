@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tetris"
         mc:Ignorable="d"
-        Title="Tetris Game" Height="750" Width="800">
+        Title="Tetris Game" Height="750" Width="800" KeyDown="Window_KeyDown">
     <Window.DataContext>
         <local:TetrisViewModel/>
     </Window.DataContext>
@@ -93,7 +93,7 @@
                 <Label Grid.Column="0" Grid.Row="1" HorizontalAlignment="Right" Content="Score:" Margin="10,12,12,12" FontSize="25"></Label>
                 <Label Grid.Column="1" Grid.Row="1"  Margin="10,12,12,12" FontSize="25" ></Label>
             </Grid>
-            <Grid Name="Grid2" Grid.Row="1" Background="LightCyan"  Margin="10,12,12,12">
+            <Grid Name="Grid2" Grid.Row="1" Background="LightCyan"  Margin="45,35,45,35">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>

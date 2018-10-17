@@ -21,7 +21,8 @@ namespace Tetris
         {
             if (grid == null) new Exception("缺少活动区域");
             if (waitingGrid == null) new Exception("缺少等候区域");
-            
+
+            if (WaitingBox == null) WaitingBox = BoxFactory.GetRandomBox(ref grid);
             waitingGrid.Children.Clear();
 
             if (waitingGrid == null) ActivityBox = BoxFactory.GetRandomBox(ref grid);

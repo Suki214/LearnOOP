@@ -27,5 +27,23 @@ namespace Tetris
             Container.waitingGrid = Grid2;
            // LSGrid.DataContext = Result.GetInstance();
         }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.Key)
+            {
+                case Key.Up: Container.ActivityBox.ChangeShape();
+                    break;
+                case Key.Down: Container.ActivityBox.MoveDown();
+                    break;
+                case Key.Left: Container.ActivityBox.MoveLeft();
+                    break;
+                case Key.Right: Container.ActivityBox.MoveRight();
+                    break;
+                case Key.Space: Container.ActivityBox.FastDown();
+                    break;
+                default:break;
+            }
+        }
     }
 }
