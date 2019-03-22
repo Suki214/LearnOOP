@@ -1,0 +1,12 @@
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\MainWindow.baml
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\MainWindow.g.cs
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\App.g.cs
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator_MarkupCompile.cache
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.g.resources
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+c:\users\zxue07474\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator_MarkupCompile.lref
